@@ -1,8 +1,9 @@
-This is the status file for DejaVu fonts
+This is the status file for QuantiiSans fonts
 ($Id$)
 
 original = present in original Bitstream Vera 1.10
 <version> = added in DejaVu fonts <version>
+QuantiiSans <version> = added in QuantiiSans fonts <version>
 
 U+0020 space                original
 U+0021 exclam               original
@@ -5193,8 +5194,8 @@ U+a752 uniA752              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Conde
 U+a753 uniA753              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Condensed, Sans Condensed Bold, Sans Condensed Bold Oblique, Sans Condensed Oblique, Sans Oblique)
 U+a756 uniA756              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Condensed, Sans Condensed Bold, Sans Condensed Bold Oblique, Sans Condensed Oblique, Sans Oblique)
 U+a757 uniA757              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Condensed, Sans Condensed Bold, Sans Condensed Bold Oblique, Sans Condensed Oblique, Sans Oblique)
-U+a75a uniA75A              Quantii 0.1 (Sans, Sans Oblique, Sans Mono Bold, Sans Mono Oblique, Sans Mono)
-U+a75b uniA75B              Quantii 0.1 (Sans, Sans Oblique, Sans Mono Bold, Sans Mono Oblique, Sans Mono)
+U+a75a uniA75A              QuantiiSans 0.1.0 (Sans, Sans Oblique, Sans Mono Bold, Sans Mono Oblique, Sans Mono)
+U+a75b uniA75B              QuantiiSans 0.1.0 (Sans, Sans Oblique, Sans Mono Bold, Sans Mono Oblique, Sans Mono)
 U+a764 uniA764              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Condensed, Sans Condensed Bold, Sans Condensed Bold Oblique, Sans Condensed Oblique, Sans Oblique)
 U+a765 uniA765              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Condensed, Sans Condensed Bold, Sans Condensed Bold Oblique, Sans Condensed Oblique, Sans Oblique)
 U+a766 uniA766              2.32 (Sans, Sans Bold, Sans Bold Oblique, Sans Condensed, Sans Condensed Bold, Sans Condensed Bold Oblique, Sans Condensed Oblique, Sans Oblique)

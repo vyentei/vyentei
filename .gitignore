@@ -3,3 +3,6 @@ dist/
 tmp/
 /src/*.sfd~
 *.DS_Store
+/resources/Blocks.txt
+/resources/UnicodeData.txt
+/resources/fc-lang

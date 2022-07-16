@@ -2,7 +2,7 @@
 
 # $Id$
 
-# DejaVu fonts statistics generator
+# QuantiiSans fonts statistics generator
 # (c)2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./stats.sh
 
