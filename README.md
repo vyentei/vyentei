@@ -1,41 +1,19 @@
-[![Build Status](https://travis-ci.org/dejavu-fonts/dejavu-fonts.svg)](https://travis-ci.org/dejavu-fonts/dejavu-fonts)
-
-DejaVu fonts 2.37 (c)2004-2016 DejaVu fonts team
-------------------------------------------------
-
-The DejaVu fonts are a font family based upon
-[Bitstream Vera](http://gnome.org/fonts/) v1.10.
-Its purpose is to provide a wider range of characters
-while maintaining the original look-and-feel.
+# QuantiiSans Fonts
+The QuantiiSans fonts are a font family based upon
+[DejaVu fonts](http://gnome.org/fonts/) v2.37.
 
 See [`status.txt`](./status.txt) for more information.
 
-
 ### Available fonts
-(Sans = sans serif, Mono = monospaced):
-
-* DejaVu Sans Mono
-* DejaVu Sans Mono Bold
-* DejaVu Sans Mono Bold Oblique
-* DejaVu Sans Mono Oblique
-* DejaVu Sans
-* DejaVu Sans Bold
-* DejaVu Sans Bold Oblique
-* DejaVu Sans Oblique
-* DejaVu Sans ExtraLight             _(experimental)_
-* DejaVu Sans Condensed              _(experimental)_
-* DejaVu Sans Condensed Bold         _(experimental)_
-* DejaVu Sans Condensed Bold Oblique _(experimental)_
-* DejaVu Sans Condensed Oblique      _(experimental)_
-* DejaVu Serif
-* DejaVu Serif Bold
-* DejaVu Serif Bold Italic           _(experimental)_
-* DejaVu Serif Italic                _(experimental)_
-* DejaVu Serif Condensed             _(experimental)_
-* DejaVu Serif Condensed Bold        _(experimental)_
-* DejaVu Serif Condensed Bold Italic _(experimental)_
-* DejaVu Serif Condensed Italic      _(experimental)_
-* DejaVu Math TeX Gyre
+ - QuantiiSans Mono
+ - QuantiiSans Mono Bold
+ - QuantiiSans Mono Bold Oblique
+ - QuantiiSans Mono Oblique
+ - QuantiiSans
+ - QuantiiSans Bold
+ - QuantiiSans Bold Oblique
+ - QuantiiSans Oblique
+ - QuantiiSans Math
 
 ### Variants and subsets
 All fonts are also available as subset forms called **DejaVu LGC**,
@@ -48,9 +26,6 @@ All authors are credited  in [`AUTHORS`](./AUTHORS).
 Fonts are published in source form as SFD files
 (Spline Font Database from [FontForge](https://fontforge.github.io/))
 and in compiled form as TTF files (TrueType fonts).
-
-For more information, visit [dejavu-fonts.github.io](https://dejavu-fonts.github.io/).
-
 
 Characters from Arev fonts
 --------------------------
