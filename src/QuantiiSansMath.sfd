@@ -4,7 +4,7 @@ FullName: QuantiiSans Math Regular
 FamilyName: QuantiiSans Math
 Weight: Regular
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. DejaVu changes are in public domain, math extensions are in public domain. QuantiiSans changes are in public domain.
-Version: Version 0.1
+Version: 0.1.0
 ItalicAngle: 0
 UnderlinePosition: -160
 UnderlineWidth: 52
@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1658004805
-ModificationTime: 1658006637
+ModificationTime: 1658009546
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ Lookup: 1 0 0 "dtlsMATH" { "dtlsMATH subtable"  } ['dtls' ('math' <'dflt' > ) ]
 Lookup: 3 0 0 "sstyMATH" { "sstyMATH subtable"  } ['ssty' ('math' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "QuantiiSansMath-Regular" "Version 0.1" "" "Please refer to the Copyright section for the font trademark attribution notices." "" "" "" "https://ardaku.org" "" "" "https://github.com/ardaku/quantii-sans/blob/stable/LICENSE" "" "QuantiiSans Math" "Regular"
+LangName: 1033 "" "" "" "QuantiiSans Math" "QuantiiSansMath-Regular" "0.1.0" "" "Please refer to the Copyright section for the font trademark attribution notices." "Ardaku" "" "" "https://ardaku.org" "" "" "https://github.com/ardaku/quantii-sans/blob/stable/LICENSE" "" "QuantiiSans Math" "Regular"
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 65
 MATH:DelimitedSubFormulaMinHeight: 1333
