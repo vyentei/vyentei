@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: DejaVuSansMono-BoldOblique
 FullName: DejaVu Sans Mono Bold Oblique
 FamilyName: DejaVu Sans Mono
@@ -10,9 +10,10 @@ UnderlinePosition: -85
 UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
@@ -37,11 +38,10 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'locl' Localized Forms lookup 0"  {"'locl' Localized Forms lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0"  {"'locl' Localized Forms in Cyrillic lookup 0"  } ['locl' ('cyrl' <'SRB ' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3"  {"'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms lookup 0" { "'locl' Localized Forms lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3" { "'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms" { "'case' Case-Sensitive Forms" ("case") } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark positioning in Lao" { "'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -1267,7 +1267,7 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "Bold Oblique" "DejaVu Sans Mono Bold Oblique" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License" 
+LangName: 1033 "" "" "Bold Oblique" "DejaVu Sans Mono Bold Oblique" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
@@ -1282,50 +1282,50 @@ Grid
  1 894 l 25,1,-1
  -139 1034 l 25,0,0
 1 1510 m 9,0,-1
- -139 1650 l 17,0,0
+ -139 1650 l 1041,0,0
 1 1202 m 9,1,-1
- -139 1342 l 17,0,0
+ -139 1342 l 1041,0,0
 1 1818 m 9,1,-1
- -139 1958 l 17,0,0
+ -139 1958 l 1041,0,0
 1 1048 m 9,1,-1
- -139 1188 l 17,0,0
+ -139 1188 l 1041,0,0
 1 1664 m 9,1,-1
- -139 1804 l 17,0,0
+ -139 1804 l 1041,0,0
 1 1356 m 9,1,-1
- -139 1496 l 17,0,0
+ -139 1496 l 1041,0,0
 -139 -352 m 9,0,0
  1 -492 l 25,1,-1
- 141 -632 l 17
+ 141 -632 l 1041
 -139 -198 m 25,0,0
  1 -338 l 25,1,-1
  -139 -198 l 25,0,0
 1 278 m 9,0,-1
- -139 418 l 17,0,0
+ -139 418 l 1041,0,0
 1 -30 m 9,1,-1
- -139 110 l 17,0,0
+ -139 110 l 1041,0,0
 1 586 m 9,1,-1
- -139 726 l 17,0,0
+ -139 726 l 1041,0,0
 1 -184 m 9,1,-1
- -139 -44 l 17,0,0
+ -139 -44 l 1041,0,0
 1 432 m 9,1,-1
- -139 572 l 17,0,0
+ -139 572 l 1041,0,0
 1 124 m 9,1,-1
- -139 264 l 17,0,0
+ -139 264 l 1041,0,0
 1232 -409 m 25,0,0
  1372 -549 l 25,1,-1
  1232 -409 l 25,0,0
 1372 67 m 9,0,-1
- 1232 207 l 17,0,0
+ 1232 207 l 1041,0,0
 1372 -241 m 9,1,-1
- 1232 -101 l 17,0,0
+ 1232 -101 l 1041,0,0
 1372 375 m 9,1,-1
- 1232 515 l 17,0,0
+ 1232 515 l 1041,0,0
 1372 -395 m 9,1,-1
- 1232 -255 l 17,0,0
+ 1232 -255 l 1041,0,0
 1372 221 m 9,1,-1
- 1232 361 l 17,0,0
+ 1232 361 l 1041,0,0
 1372 -87 m 9,1,-1
- 1232 53 l 17,0,0
+ 1232 53 l 1041,0,0
 1232 669 m 25,0,0
  1372 529 l 25,1,-1
  1232 669 l 25,0,0
@@ -1333,56 +1333,56 @@ Grid
  1372 683 l 25,1,-1
  1232 823 l 25,0,0
 1372 1299 m 9,0,-1
- 1232 1439 l 17,0,0
+ 1232 1439 l 1041,0,0
 1372 991 m 9,1,-1
- 1232 1131 l 17,0,0
+ 1232 1131 l 1041,0,0
 1372 1607 m 9,1,-1
- 1232 1747 l 17,0,0
+ 1232 1747 l 1041,0,0
 1372 837 m 9,1,-1
- 1232 977 l 17,0,0
+ 1232 977 l 1041,0,0
 1372 1453 m 9,1,-1
- 1232 1593 l 17,0,0
+ 1232 1593 l 1041,0,0
 1372 1145 m 9,1,-1
- 1232 1285 l 17,0,0
+ 1232 1285 l 1041,0,0
 1372 1761 m 9,1,-1
  1232 1901 l 25,0,0
- 1092 2041 l 17,0,0
+ 1092 2041 l 1041,0,0
 1373 -632 m 9,1,-1
- 1233 -492 l 17,0,0
+ 1233 -492 l 1041,0,0
 1079 -492 m 25,0,0
  1219 -632 l 25,1,-1
  1079 -492 l 25,0,0
 603 -632 m 9,0,-1
- 463 -492 l 17,0,0
+ 463 -492 l 1041,0,0
 911 -632 m 9,1,-1
- 771 -492 l 17,0,0
+ 771 -492 l 1041,0,0
 295 -632 m 9,1,-1
- 155 -492 l 17,0,0
+ 155 -492 l 1041,0,0
 1065 -632 m 9,1,-1
- 925 -492 l 17,0,0
+ 925 -492 l 1041,0,0
 449 -632 m 9,1,-1
- 309 -492 l 17,0,0
+ 309 -492 l 1041,0,0
 757 -632 m 9,1,-1
- 617 -492 l 17,0,0
+ 617 -492 l 1041,0,0
 1386 1901 m 9,1,-1
- 1246 2041 l 17,0,0
+ 1246 2041 l 1041,0,0
 938 2041 m 25,0,0
  1078 1901 l 25,1,-1
  938 2041 l 25,0,0
 462 1901 m 9,0,-1
- 322 2041 l 17,0,0
+ 322 2041 l 1041,0,0
 770 1901 m 9,1,-1
- 630 2041 l 17,0,0
+ 630 2041 l 1041,0,0
 154 1901 m 9,1,-1
- 14 2041 l 17,0,0
+ 14 2041 l 1041,0,0
 924 1901 m 9,1,-1
- 784 2041 l 17,0,0
+ 784 2041 l 1041,0,0
 308 1901 m 9,1,-1
- 168 2041 l 17,0,0
+ 168 2041 l 1041,0,0
 616 1901 m 9,1,-1
- 476 2041 l 17,0,0
+ 476 2041 l 1041,0,0
 0 1901 m 9,1,-1
- -140 2041 l 17,0,0
+ -140 2041 l 1041,0,0
 -140 2041 m 1,1,-1
  1373 2041 l 1,2,-1
  1373 -632 l 1,3,-1
@@ -1394,7 +1394,7 @@ Grid
  0 -492 l 1,8,-1
  0 1901 l 1,5,-1
 EndSplineSet
-AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
+AnchorClass2: "lao-below" "'mark' Mark positioning in Lao" "lao-above" "'mark' Mark positioning in Lao"
 BeginChars: 1114138 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -15603,7 +15603,7 @@ SplineSet
  416 1339 l 1,7,-1
  463 1585 l 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: copyright
 Encoding: 169 169 169
@@ -16277,7 +16277,7 @@ SplineSet
  422 1368 l 1,3,-1
  459 1556 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: degree
 Encoding: 176 176 176
@@ -16688,7 +16688,7 @@ SplineSet
  569 1262 l 1,3,-1
  887 1638 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: mu
 Encoding: 181 181 181
@@ -17070,7 +17070,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: onesuperior
 Encoding: 185 185 185
@@ -17349,7 +17349,7 @@ Fore
 Refer: 8308 8308 N 1 0 0 1 137 -938 2
 Refer: 185 185 N 1 0 0 1 -258 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: onehalf
 Encoding: 189 189 189
@@ -17370,7 +17370,7 @@ Fore
 Refer: 8308 8308 N 1 0 0 1 137 -938 2
 Refer: 179 179 N 1 0 0 1 -227 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: questiondown
 Encoding: 191 191 191
@@ -18024,7 +18024,7 @@ LayerCount: 2
 Fore
 Refer: 73 73 N 1 0 0 1 0 0 2
 Refer: 1114114 -1 N 1 0 0 1 47 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Eth
 Encoding: 208 208 208
@@ -18500,7 +18500,7 @@ LayerCount: 2
 Fore
 Refer: 85 85 N 1 0 0 1 0 0 2
 Refer: 1114119 -1 N 1 0 0 1 57 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Udieresis
 Encoding: 220 220 220
@@ -19426,7 +19426,7 @@ LayerCount: 2
 Fore
 Refer: 99 99 N 1 0 0 1 0 0 2
 Refer: 807 807 N 1 0 0 1 72 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: egrave
 Encoding: 232 232 232
@@ -19974,7 +19974,7 @@ LayerCount: 2
 Fore
 Refer: 117 117 N 1 0 0 1 0 0 2
 Refer: 710 710 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: udieresis
 Encoding: 252 252 252
@@ -20300,7 +20300,7 @@ LayerCount: 2
 Fore
 Refer: 67 67 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 193 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ccaron
 Encoding: 269 269 269
@@ -20310,7 +20310,7 @@ LayerCount: 2
 Fore
 Refer: 99 99 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 86 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Dcaron
 Encoding: 270 270 270
@@ -20320,7 +20320,7 @@ LayerCount: 2
 Fore
 Refer: 68 68 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 73 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: dcaron
 Encoding: 271 271 271
@@ -20330,7 +20330,7 @@ LayerCount: 2
 Fore
 Refer: 1114113 -1 N 1 0 0 1 631 -82 2
 Refer: 100 100 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Dcroat
 Encoding: 272 272 272
@@ -20656,7 +20656,7 @@ LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 109 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ecaron
 Encoding: 283 283 283
@@ -20666,7 +20666,7 @@ LayerCount: 2
 Fore
 Refer: 101 101 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 66 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Gcircumflex
 Encoding: 284 284 284
@@ -20701,7 +20701,7 @@ LayerCount: 2
 Fore
 Refer: 774 774 N 1 0 0 1 0 0 2
 Refer: 103 103 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Gdotaccent
 Encoding: 288 288 288
@@ -20906,7 +20906,7 @@ LayerCount: 2
 Fore
 Refer: 1114124 -1 N 1 0 0 1 0 0 2
 Refer: 73 73 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: dotlessi
 Encoding: 305 305 305
@@ -21178,7 +21178,7 @@ LayerCount: 2
 Fore
 Refer: 1114115 -1 N 1 0 0 1 47 374 2
 Refer: 76 76 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: lacute
 Encoding: 314 314 314
@@ -21188,7 +21188,7 @@ LayerCount: 2
 Fore
 Refer: 1114115 -1 N 1 0 0 1 46 375 2
 Refer: 108 108 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Lcommaaccent
 Encoding: 315 315 315
@@ -21216,7 +21216,7 @@ LayerCount: 2
 Fore
 Refer: 1114113 -1 N 1 0 0 1 206 -146 2
 Refer: 76 76 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: lcaron
 Encoding: 318 318 318
@@ -21226,7 +21226,7 @@ LayerCount: 2
 Fore
 Refer: 1114113 -1 N 1 0 0 1 290 -82 2
 Refer: 108 108 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Ldot
 Encoding: 319 319 319
@@ -21235,7 +21235,7 @@ LayerCount: 2
 Fore
 Refer: 183 183 N 1 0 0 1 423.03 172.5 2
 Refer: 76 76 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ldot
 Encoding: 320 320 320
@@ -21245,7 +21245,7 @@ LayerCount: 2
 Fore
 Refer: 183 183 N 1 0 0 1 575 168 2
 Refer: 108 108 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Lslash
 Encoding: 321 321 321
@@ -21605,7 +21605,7 @@ LayerCount: 2
 Fore
 Refer: 78 78 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 127 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ncaron
 Encoding: 328 328 328
@@ -21615,7 +21615,7 @@ LayerCount: 2
 Fore
 Refer: 110 110 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 20 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: napostrophe
 Encoding: 329 329 329
@@ -21625,7 +21625,7 @@ LayerCount: 2
 Fore
 Refer: 700 700 N 1 0 0 1 -542 0 2
 Refer: 110 110 N 1 0 0 1 159 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
@@ -22146,7 +22146,7 @@ LayerCount: 2
 Fore
 Refer: 1114115 -1 N 1 0 0 1 48 374 2
 Refer: 82 82 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: racute
 Encoding: 341 341 341
@@ -22156,7 +22156,7 @@ LayerCount: 2
 Fore
 Refer: 180 180 N 1 0 0 1 164.347 9 2
 Refer: 114 114 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Rcommaaccent
 Encoding: 342 342 342
@@ -22184,7 +22184,7 @@ LayerCount: 2
 Fore
 Refer: 82 82 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 55 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: rcaron
 Encoding: 345 345 345
@@ -22194,7 +22194,7 @@ LayerCount: 2
 Fore
 Refer: 114 114 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 86 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Sacute
 Encoding: 346 346 346
@@ -22292,7 +22292,7 @@ LayerCount: 2
 Fore
 Refer: 84 84 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 79 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: tcaron
 Encoding: 357 357 357
@@ -22302,7 +22302,7 @@ LayerCount: 2
 Fore
 Refer: 116 116 N 1 0 0 1 0 0 2
 Refer: 1114113 -1 N 1 0 0 1 371 28 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Tbar
 Encoding: 358 358 358
@@ -22428,7 +22428,7 @@ LayerCount: 2
 Fore
 Refer: 730 730 N 1 0 0 1 12 82 2
 Refer: 85 85 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uring
 Encoding: 367 367 367
@@ -22438,7 +22438,7 @@ LayerCount: 2
 Fore
 Refer: 117 117 N 1 0 0 1 0 0 2
 Refer: 730 730 N 1 0 0 1 -10 5 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Uhungarumlaut
 Encoding: 368 368 368
@@ -23214,7 +23214,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-598.223 510 m 1,3,-1
+598.223 510 m 1025,3,-1
 462.506 762 m 1,0,0
  206.198 1493 l 1,7,-1
  527.798 1493 l 1,8,-1
@@ -24613,7 +24613,7 @@ LayerCount: 2
 Fore
 Refer: 65 65 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 47 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01CE
 Encoding: 462 462 462
@@ -24623,7 +24623,7 @@ LayerCount: 2
 Fore
 Refer: 97 97 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01CF
 Encoding: 463 463 463
@@ -24633,7 +24633,7 @@ LayerCount: 2
 Fore
 Refer: 73 73 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 47 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01D0
 Encoding: 464 464 464
@@ -24643,7 +24643,7 @@ LayerCount: 2
 Fore
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01D1
 Encoding: 465 465 465
@@ -24653,7 +24653,7 @@ LayerCount: 2
 Fore
 Refer: 79 79 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 47 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01D2
 Encoding: 466 466 466
@@ -24663,7 +24663,7 @@ LayerCount: 2
 Fore
 Refer: 1114117 -1 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01D3
 Encoding: 467 467 467
@@ -24673,7 +24673,7 @@ LayerCount: 2
 Fore
 Refer: 85 85 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 68 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01D4
 Encoding: 468 468 468
@@ -24683,7 +24683,7 @@ LayerCount: 2
 Fore
 Refer: 117 117 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 15 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni01D5
 Encoding: 469 469 469
@@ -30368,7 +30368,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 774 774 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: dotaccent
 Encoding: 729 729 729
@@ -30377,7 +30377,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 775 775 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ring
 Encoding: 730 730 730
@@ -30459,7 +30459,7 @@ SplineSet
  693 1665 693 1665 654.5 1626.5 c 128,-1,23
  616 1588 616 1588 616 1534 c 0,12,13
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ogonek
 Encoding: 731 731 731
@@ -30703,7 +30703,7 @@ SplineSet
  844 1307 844 1307 811.5 1320 c 128,-1,28
  779 1333 779 1333 739 1364 c 2,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: hungarumlaut
 Encoding: 733 733 733
@@ -35716,7 +35716,6 @@ SplineSet
  378 724 378 724 355 606 c 128,-1,36
  332 488 332 488 332 421 c 128,-1,0
 EndSplineSet
-Substitution2: "'locl' Localized Forms in Cyrillic lookup 0" uniF6C5
 EndChar
 StartChar: uni0432
 Encoding: 1074 1074 1074
@@ -50078,6 +50077,87 @@ Fore
 Refer: 803 803 N 1 0 0 1 0 0 2
 Refer: 97 97 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uni1EA2
+Encoding: 7842 7842 7842
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 65 65 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1EA3
+Encoding: 7843 7843 7843
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 202 59 2
+Refer: 97 97 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EA4
+Encoding: 7844 7844 7844
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114115 -1 N 1 0 0 1 523.409 589 2
+Refer: 194 194 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EA5
+Encoding: 7845 7845 7845
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 769 769 N 1 0 0 1 466.909 314 2
+Refer: 226 226 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EA6
+Encoding: 7846 7846 7846
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114118 -1 N 1 0 0 1 -324.091 584 2
+Refer: 194 194 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EA7
+Encoding: 7847 7847 7847
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 768 768 N 1 0 0 1 -295.591 299 2
+Refer: 226 226 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EA8
+Encoding: 7848 7848 7848
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 605 547 2
+Refer: 194 194 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EA9
+Encoding: 7849 7849 7849
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 582 236 2
+Refer: 226 226 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EAA
+Encoding: 7850 7850 7850
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114116 -1 N 1 0 0 1 117.261 759 2
+Refer: 194 194 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EAB
+Encoding: 7851 7851 7851
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 732 732 N 1 0 0 1 119.705 453 2
+Refer: 226 226 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1EAC
 Encoding: 7852 7852 7852
 Width: 1233
@@ -50096,15 +50176,30 @@ Fore
 Refer: 7841 7841 N 1 0 0 1 0 0 3
 Refer: 710 710 N 1 0 0 1 -24.5 7 2
 EndChar
+StartChar: uni1EAE
+Encoding: 7854 7854 7854
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114115 -1 N 1 0 0 1 197.538 759 2
+Refer: 258 258 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EAF
+Encoding: 7855 7855 7855
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 769 769 N 1 0 0 1 139.409 466 2
+Refer: 259 259 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1EB0
 Encoding: 7856 7856 7856
 Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114123 -1 N 1 0 0 1 0 -128 2
-Refer: 1114118 -1 N 1 0 0 1 108 515 2
-Refer: 65 65 N 1 0 0 1 0 0 2
+Refer: 1114118 -1 N 1 0 0 1 99.0377 759 2
+Refer: 258 258 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EB1
 Encoding: 7857 7857 7857
@@ -50112,7 +50207,39 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 768 768 N 1 0 0 1 66 316 2
+Refer: 768 768 N 1 0 0 1 41.9088 466 2
+Refer: 259 259 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EB2
+Encoding: 7858 7858 7858
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 269 637 2
+Refer: 258 258 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EB3
+Encoding: 7859 7859 7859
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 259 259 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EB4
+Encoding: 7860 7860 7860
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114116 -1 N 1 0 0 1 146.39 759 2
+Refer: 258 258 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EB5
+Encoding: 7861 7861 7861
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 732 732 N 1 0 0 1 82.2052 421 2
 Refer: 259 259 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EB6
@@ -50151,6 +50278,22 @@ Fore
 Refer: 803 803 N 1 0 0 1 39 0 2
 Refer: 101 101 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uni1EBA
+Encoding: 7866 7866 7866
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 69 69 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EBB
+Encoding: 7867 7867 7867
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 177 39 2
+Refer: 101 101 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1EBC
 Encoding: 7868 7868 7868
 Width: 1233
@@ -50169,6 +50312,70 @@ Fore
 Refer: 101 101 N 1 0 0 1 0 0 2
 Refer: 732 732 N 1 0 0 1 0 -33 2
 EndChar
+StartChar: uni1EBE
+Encoding: 7870 7870 7870
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114115 -1 N 1 0 0 1 565.409 559 2
+Refer: 202 202 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EBF
+Encoding: 7871 7871 7871
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 769 769 N 1 0 0 1 493.909 278 2
+Refer: 234 234 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC0
+Encoding: 7872 7872 7872
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114118 -1 N 1 0 0 1 -323.091 569 2
+Refer: 202 202 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC1
+Encoding: 7873 7873 7873
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 768 768 N 1 0 0 1 -311.591 308 2
+Refer: 234 234 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC2
+Encoding: 7874 7874 7874
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 647 540 2
+Refer: 202 202 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC3
+Encoding: 7875 7875 7875
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 564 212 2
+Refer: 234 234 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC4
+Encoding: 7876 7876 7876
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114116 -1 N 1 0 0 1 154.261 759 2
+Refer: 202 202 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC5
+Encoding: 7877 7877 7877
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 732 732 N 1 0 0 1 88.7052 453 2
+Refer: 234 234 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1EC6
 Encoding: 7878 7878 7878
 Width: 1233
@@ -50186,6 +50393,22 @@ LayerCount: 2
 Fore
 Refer: 7865 7865 N 1 0 0 1 0 0 3
 Refer: 710 710 N 1 0 0 1 34.5 7 2
+EndChar
+StartChar: uni1EC8
+Encoding: 7880 7880 7880
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 73 73 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EC9
+Encoding: 7881 7881 7881
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 29 2
+Refer: 305 305 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1ECA
 Encoding: 7882 7882 7882
@@ -50222,6 +50445,86 @@ LayerCount: 2
 Fore
 Refer: 803 803 N 1 0 0 1 0 0 2
 Refer: 111 111 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1ECE
+Encoding: 7886 7886 7886
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 79 79 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ECF
+Encoding: 7887 7887 7887
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 157 39 2
+Refer: 111 111 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED0
+Encoding: 7888 7888 7888
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114115 -1 N 1 0 0 1 518.409 549 2
+Refer: 212 212 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED1
+Encoding: 7889 7889 7889
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 769 769 N 1 0 0 1 445.909 283 2
+Refer: 244 244 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED2
+Encoding: 7890 7890 7890
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114118 -1 N 1 0 0 1 -360.091 564 2
+Refer: 212 212 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED3
+Encoding: 7891 7891 7891
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 768 768 N 1 0 0 1 -336.591 283 2
+Refer: 244 244 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED4
+Encoding: 7892 7892 7892
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 626 533 2
+Refer: 212 212 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED5
+Encoding: 7893 7893 7893
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 569 233 2
+Refer: 244 244 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED6
+Encoding: 7894 7894 7894
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 1114116 -1 N 1 0 0 1 117.261 759 2
+Refer: 212 212 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1ED7
+Encoding: 7895 7895 7895
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 732 732 N 1 0 0 1 88.7052 453 2
+Refer: 244 244 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1ED8
 Encoding: 7896 7896 7896
@@ -50277,6 +50580,22 @@ Fore
 Refer: 417 417 N 1 0 0 1 0 0 3
 Refer: 96 96 N 1 0 0 1 -105 0 2
 EndChar
+StartChar: uni1EDE
+Encoding: 7902 7902 7902
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 114 344 2
+Refer: 416 416 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EDF
+Encoding: 7903 7903 7903
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 87 54 2
+Refer: 417 417 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1EE0
 Encoding: 7904 7904 7904
 Width: 1233
@@ -50331,6 +50650,22 @@ Fore
 Refer: 803 803 N 1 0 0 1 0 0 2
 Refer: 117 117 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uni1EE6
+Encoding: 7910 7910 7910
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 85 85 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EE7
+Encoding: 7911 7911 7911
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 152 4 2
+Refer: 117 117 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1EE8
 Encoding: 7912 7912 7912
 Width: 1233
@@ -50366,6 +50701,22 @@ LayerCount: 2
 Fore
 Refer: 432 432 N 1 0 0 1 0 0 3
 Refer: 96 96 N 1 0 0 1 -156 0 2
+EndChar
+StartChar: uni1EEC
+Encoding: 7916 7916 7916
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 120 344 2
+Refer: 431 431 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EED
+Encoding: 7917 7917 7917
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 17 29 2
+Refer: 432 432 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EEE
 Encoding: 7918 7918 7918
@@ -50438,6 +50789,22 @@ LayerCount: 2
 Fore
 Refer: 803 803 N 1 0 0 1 300 0 2
 Refer: 121 121 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1EF6
+Encoding: 7926 7926 7926
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 192 344 2
+Refer: 89 89 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1EF7
+Encoding: 7927 7927 7927
+Width: 1233
+LayerCount: 2
+Fore
+Refer: 777 777 N 1 0 0 1 126 14 2
+Refer: 121 121 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EF8
 Encoding: 7928 7928 7928
@@ -54392,7 +54759,7 @@ LayerCount: 2
 Fore
 Refer: 33 33 N 1 0 0 1 -308 0 2
 Refer: 33 33 N 1 0 0 1 308 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni203D
 Encoding: 8253 8253 8253
@@ -54512,7 +54879,7 @@ LayerCount: 2
 Fore
 Refer: 1114127 -1 N 1 0 0 1 -308 0 2
 Refer: 1114127 -1 N 1 0 0 1 308 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni2048
 Encoding: 8264 8264 8264
@@ -54522,7 +54889,7 @@ LayerCount: 2
 Fore
 Refer: 1114127 -1 N 1 0 0 1 -244.5 0 2
 Refer: 33 33 N 1 0 0 1 308 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni2049
 Encoding: 8265 8265 8265
@@ -54532,7 +54899,7 @@ LayerCount: 2
 Fore
 Refer: 33 33 N 1 0 0 1 -308 0 2
 Refer: 1114127 -1 N 1 0 0 1 244.5 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni204B
 Encoding: 8267 8267 8267
@@ -57213,7 +57580,7 @@ Fore
 Refer: 179 179 N 1 0 0 1 137 -938 2
 Refer: 185 185 N 1 0 0 1 -258 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: twothirds
 Encoding: 8532 8532 8532
@@ -57224,7 +57591,7 @@ Fore
 Refer: 179 179 N 1 0 0 1 137 -938 2
 Refer: 178 178 N 1 0 0 1 -258 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni2155
 Encoding: 8533 8533 8533
@@ -57245,7 +57612,7 @@ Fore
 Refer: 8309 8309 N 1 0 0 1 137 -938 2
 Refer: 178 178 N 1 0 0 1 -258 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni2157
 Encoding: 8535 8535 8535
@@ -57256,7 +57623,7 @@ Fore
 Refer: 8309 8309 N 1 0 0 1 137 -938 2
 Refer: 179 179 N 1 0 0 1 -228 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni2158
 Encoding: 8536 8536 8536
@@ -57267,7 +57634,7 @@ Fore
 Refer: 8309 8309 N 1 0 0 1 137 -938 2
 Refer: 8308 8308 N 1 0 0 1 -228 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni2159
 Encoding: 8537 8537 8537
@@ -57288,7 +57655,7 @@ Fore
 Refer: 8310 8310 N 1 0 0 1 137 -938 2
 Refer: 8309 8309 N 1 0 0 1 -228 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: oneeighth
 Encoding: 8539 8539 8539
@@ -57309,7 +57676,7 @@ Fore
 Refer: 8312 8312 N 1 0 0 1 137 -938 2
 Refer: 179 179 N 1 0 0 1 -228 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: fiveeighths
 Encoding: 8541 8541 8541
@@ -57320,7 +57687,7 @@ Fore
 Refer: 8312 8312 N 1 0 0 1 137 -938 2
 Refer: 8309 8309 N 1 0 0 1 -228 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: seveneighths
 Encoding: 8542 8542 8542
@@ -57331,7 +57698,7 @@ Fore
 Refer: 8312 8312 N 1 0 0 1 137 -938 2
 Refer: 8311 8311 N 1 0 0 1 -258 156 2
 Refer: 1114121 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni215F
 Encoding: 8543 8543 8543
@@ -61815,7 +62182,7 @@ SplineSet
  127.143 -237 127.143 -237 192 -237 c 0,34,35
  230 -237 230 -237 230 -68 c 2,36,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni222D
 Encoding: 8749 8749 8749
@@ -61870,7 +62237,7 @@ SplineSet
  56 -237 56 -237 80 -237 c 0,34,35
  118 -237 118 -237 118 -68 c 2,36,-1
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: therefore
 Encoding: 8756 8756 8756
@@ -63312,7 +63679,7 @@ SplineSet
  78 752 l 1,19,-1
  78 987 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: equivalence
 Encoding: 8801 8801 8801
@@ -81413,7 +81780,7 @@ SplineSet
  684 1331 684 1331 655 1306.5 c 128,-1,25
  626 1282 626 1282 612 1219 c 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Latin lookup 3" f i
 EndChar
 StartChar: fl
@@ -81586,7 +81953,7 @@ SplineSet
  684 1331 684 1331 655 1306.5 c 128,-1,21
  626 1282 626 1282 612 1219 c 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Latin lookup 3" f l
 EndChar
 StartChar: uniFFF9

@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: DejaVuSansCondensed-BoldOblique
 FullName: DejaVu Sans Condensed Bold Oblique
 FamilyName: DejaVu Sans Condensed
@@ -10,9 +10,10 @@ UnderlinePosition: -85
 UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
@@ -37,55 +38,54 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 6 1 0 "'ccmp' in RTL"  {"'ccmp' in RTL"  } ['ccmp' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' in Basic"  {"'ccmp' in Basic"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Tone Bars"  {"'ccmp' Tone Bars-5"  "'ccmp' Tone Bars-4"  "'ccmp' Tone Bars-3"  "'ccmp' Tone Bars-2"  "'ccmp' Tone Bars-1"  "'ccmp' Tone Bars-Stem-5"  "'ccmp' Tone Bars-Stem-4"  "'ccmp' Tone Bars-Stem-3"  "'ccmp' Tone Bars-Stem-2"  "'ccmp' Tone Bars-Stem-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'kana' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'ogam' <'dflt' > 'runr' <'dflt' > 'tfng' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  } ['ccmp' ('hebr' <'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 3"  {"'locl' Localized Forms in Cyrillic lookup 3"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 4"  {"'locl' Localized Forms in Latin lookup 4"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin"  {"'liga' Standard Ligatures in Latin"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 4 1 0 "'hlig' Historic Ligatures in Hebrew lookup 8"  {"'hlig' Historic Ligatures in Hebrew lookup 8"  } ['hlig' ('hebr' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Armenian lookup 9"  {"'dlig' Discretionary Ligatures in Armenian lookup 9"  } ['dlig' ('armn' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10"  {"'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 4 0 0 "'hlig' Historic Ligatures in Latin lookup 11"  {"'hlig' Historic Ligatures in Latin lookup 11"  } ['hlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 12"  {"'dlig' Discretionary Ligatures lookup 12"  } ['dlig' ('DFLT' <'dflt' > ) ]
-Lookup: 1 1 0 "'aalt' Access All Alternates in Hebrew lookup 14"  {"'aalt' Access All Alternates in Hebrew lookup 14"  } ['aalt' ('hebr' <'dflt' > ) ]
-Lookup: 1 1 0 "'salt' Stylistic Alternatives in Hebrew lookup 15"  {"'salt' Stylistic Alternatives in Hebrew lookup 15"  } ['salt' ('hebr' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' Access All Alternates in Greek lookup 16"  {"'aalt' Access All Alternates in Greek lookup 16"  } ['aalt' ('grek' <'dflt' > ) ]
-Lookup: 1 0 0 "'salt' Stylistic Alternatives in Greek lookup 17"  {"'salt' Stylistic Alternatives in Greek lookup 17"  } ['salt' ('grek' <'dflt' > ) ]
-Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 19"  {"'salt' Stylistic Alternatives in Latin lookup 19"  } ['salt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 20"  {"'aalt' Access All Alternates in Latin lookup 20"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 1 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21"  } []
-Lookup: 1 0 0 "Single Substitution - Case Form"  {"Single Substitution - Case Form"  } []
-Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
-Lookup: 1 0 0 "Single Substitution - Stemless Form-5"  {"Single Substitution - Stemless Form-5" ("5" ) } []
-Lookup: 1 0 0 "Single Substitution - Stemless Form-4"  {"Single Substitution - Stemless Form-4" ("4" ) } []
-Lookup: 1 0 0 "Single Substitution - Stemless Form-3"  {"Single Substitution - Stemless Form-3" ("3" ) } []
-Lookup: 1 0 0 "Single Substitution - Stemless Form-2"  {"Single Substitution - Stemless Form-2" ("2" ) } []
-Lookup: 1 0 0 "Single Substitution - Stemless Form-1"  {"Single Substitution - Stemless Form-1" ("1" ) } []
-Lookup: 1 0 0 "Single Substitution - Stem"  {"Single Substitution - Stem"  } []
-Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 0"  {"'mkmk' Mark to Mark in Lao lookup 0"  } ['mkmk' ('lao ' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 1"  {"'mkmk' Mark to Mark in Lao lookup 1"  } ['mkmk' ('lao ' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark in Basic"  {"'mkmk' below-mark"  "'mkmk' above-mark"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning lookup 4"  {"'mark' Mark Positioning lookup 4"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning lookup 5"  {"'mark' Mark Positioning lookup 5"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 7"  {"'mark' Mark Positioning in Lao lookup 7"  } ['mark' ('lao ' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 8"  {"'mark' Mark Positioning in Lao lookup 8"  } ['mark' ('lao ' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' half"  "'mark' ogonek"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 11"  {"'kern' Horizontal Kerning in Latin lookup 11" [307,0,0] } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Tone Letters"  {"'kern' Tone Letters-1"  } ['kern' ('DFLT' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'runr' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 6 1 0 "'ccmp' in RTL" { "'ccmp' in RTL"  } ['ccmp' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' in Basic" { "'ccmp' in Basic"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Tone Bars" { "'ccmp' Tone Bars-5"  "'ccmp' Tone Bars-4"  "'ccmp' Tone Bars-3"  "'ccmp' Tone Bars-2"  "'ccmp' Tone Bars-1"  "'ccmp' Tone Bars-Stem-5"  "'ccmp' Tone Bars-Stem-4"  "'ccmp' Tone Bars-Stem-3"  "'ccmp' Tone Bars-Stem-2"  "'ccmp' Tone Bars-Stem-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'kana' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'ogam' <'dflt' > 'runr' <'dflt' > 'tfng' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" { "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 4" { "'locl' Localized Forms in Latin lookup 4"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin" { "'liga' Standard Ligatures in Latin"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 1 0 "'hlig' Historic Ligatures in Hebrew lookup 8" { "'hlig' Historic Ligatures in Hebrew lookup 8"  } ['hlig' ('hebr' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Armenian lookup 9" { "'dlig' Discretionary Ligatures in Armenian lookup 9"  } ['dlig' ('armn' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10" { "'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 0 0 "'hlig' Historic Ligatures in Latin lookup 11" { "'hlig' Historic Ligatures in Latin lookup 11"  } ['hlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 12" { "'dlig' Discretionary Ligatures lookup 12"  } ['dlig' ('DFLT' <'dflt' > ) ]
+Lookup: 1 1 0 "'aalt' Access All Alternates in Hebrew lookup 14" { "'aalt' Access All Alternates in Hebrew lookup 14"  } ['aalt' ('hebr' <'dflt' > ) ]
+Lookup: 1 1 0 "'salt' Stylistic Alternatives in Hebrew lookup 15" { "'salt' Stylistic Alternatives in Hebrew lookup 15"  } ['salt' ('hebr' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' Access All Alternates in Greek lookup 16" { "'aalt' Access All Alternates in Greek lookup 16"  } ['aalt' ('grek' <'dflt' > ) ]
+Lookup: 1 0 0 "'salt' Stylistic Alternatives in Greek lookup 17" { "'salt' Stylistic Alternatives in Greek lookup 17"  } ['salt' ('grek' <'dflt' > ) ]
+Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 19" { "'salt' Stylistic Alternatives in Latin lookup 19"  } ['salt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 20" { "'aalt' Access All Alternates in Latin lookup 20"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 1 0 "Single Substitution lookup 21" { "Single Substitution lookup 21"  } []
+Lookup: 1 0 0 "Single Substitution - Case Form" { "Single Substitution - Case Form"  } []
+Lookup: 1 0 0 "Single Substitution - Dotless Form" { "Single Substitution - Dotless Form"  } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-5" { "Single Substitution - Stemless Form-5" ("5") } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-4" { "Single Substitution - Stemless Form-4" ("4") } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-3" { "Single Substitution - Stemless Form-3" ("3") } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-2" { "Single Substitution - Stemless Form-2" ("2") } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-1" { "Single Substitution - Stemless Form-1" ("1") } []
+Lookup: 1 0 0 "Single Substitution - Stem" { "Single Substitution - Stem"  } []
+Lookup: 1 0 0 "'case' Case-Sensitive Forms" { "'case' Case-Sensitive Forms" ("case") } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 0" { "'mkmk' Mark to Mark in Lao lookup 0"  } ['mkmk' ('lao ' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 1" { "'mkmk' Mark to Mark in Lao lookup 1"  } ['mkmk' ('lao ' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Basic" { "'mkmk' below-mark"  "'mkmk' above-mark"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning lookup 4" { "'mark' Mark Positioning lookup 4"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning lookup 5" { "'mark' Mark Positioning lookup 5"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning lookup 6" { "'mark' Mark Positioning lookup 6"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 7" { "'mark' Mark Positioning in Lao lookup 7"  } ['mark' ('lao ' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 8" { "'mark' Mark Positioning in Lao lookup 8"  } ['mark' ('lao ' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic" { "'mark' half"  "'mark' ogonek"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 11" { "'kern' Horizontal Kerning in Latin lookup 11" [307,0,0] } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Tone Letters" { "'kern' Tone Letters-1"  } ['kern' ('DFLT' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'runr' <'dflt' > 'thai' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 5 2 "'kern' Tone Letters-1" 
+KernClass2: 5 2 "'kern' Tone Letters-1"
  79 uni02E6.5 uni02E5.4 uni02E7.4 uni02E6.3 uni02E8.3 uni02E7.2 uni02E9.2 uni02E8.1
  59 uni02E7.5 uni02E8.4 uni02E5.3 uni02E9.3 uni02E6.2 uni02E7.1
  39 uni02E8.5 uni02E9.4 uni02E5.2 uni02E6.1
  19 uni02E9.5 uni02E5.1
  4 stem
  0 {} 0 {} 0 {} -54 {} 0 {} -104 {} 0 {} -125 {} 0 {} -136 {}
-KernClass2: 38 50 "'kern' Horizontal Kerning in Latin lookup 11" 
+KernClass2: 38 50 "'kern' Horizontal Kerning in Latin lookup 11"
  14 hyphen uni2010
  67 A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aogonek
  1 B
@@ -173,7 +173,7 @@ KernClass2: 38 50 "'kern' Horizontal Kerning in Latin lookup 11"
  13 quotedblright
  12 quotedblbase
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} -149 {} -92 {} -206 {} -339 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 38 {} 0 {} -63 {} 0 {} -63 {} 0 {} -196 {} -92 {} -139 {} -112 {} 0 {} -235 {} 0 {} -63 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} -92 {} -149 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} -196 {} -196 {} -92 {} 0 {} -92 {} -112 {} -235 {} -149 {} -253 {} 104 {} -253 {} 104 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -83 {} -112 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -444 {} -102 {} -452 {} -112 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -235 {} 0 {} 0 {} -159 {} 0 {} 0 {} -159 {} -225 {} 0 {} 0 {} -196 {} 0 {} -188 {} 0 {} 0 {} -159 {} -264 {} -235 {} -159 {} 0 {} -225 {} 0 {} 0 {} 0 {} 0 {} -196 {} 0 {} 0 {} 0 {} -188 {} -36 {} -452 {} 0 {} -452 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -83 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -253 {} 0 {} 0 {} 0 {} -131 {} 0 {} -131 {} 0 {} 0 {} -73 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -112 {} 0 {} -206 {} 0 {} -55 {} -112 {} 0 {} 0 {} 0 {} -178 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -339 {} -112 {} -282 {} -178 {} 0 {} -319 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -253 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -339 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -509 {} 0 {} -528 {} 0 {} 0 {} -45 {} 38 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -73 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -528 {} -36 {} -528 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} -63 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 57 {} -415 {} 38 {} -415 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} -112 {} 0 {} -131 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -329 {} -301 {} -348 {} -112 {} -159 {} 0 {} 0 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} -243 {} -264 {} 0 {} -264 {} 0 {} 0 {} -264 {} -225 {} -243 {} 0 {} -264 {} -282 {} -339 {} 0 {} 0 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -319 {} -149 {} -319 {} -92 {} -139 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} -149 {} -36 {} 0 {} -149 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} -36 {} -149 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -272 {} 0 {} -272 {} 0 {} -178 {} -92 {} -178 {} -63 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -139 {} 0 {} 0 {} -131 {} 0 {} 0 {} -112 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -243 {} 0 {} 0 {} 0 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} -301 {} -339 {} -178 {} -196 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -243 {} 0 {} 0 {} -264 {} 0 {} 0 {} -264 {} 0 {} 0 {} 0 {} -225 {} 0 {} 0 {} 0 {} -73 {} -264 {} 0 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -376 {} 0 {} -405 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -36 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 141 {} 0 {} 86 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} -292 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 86 {} 0 {} 38 {} 0 {} 0 {} -167 {} 0 {} -167 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 38 {} -45 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -8 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -339 {} -73 {} -282 {} -159 {} 0 {} -319 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -253 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -339 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -264 {} 0 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -272 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -452 {} 0 {} -339 {} -225 {} 0 {} -415 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -452 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-ChainSub2: class "'ccmp' Tone Bars-Stem-1"  3 3 1 1
+ChainSub2: class "'ccmp' Tone Bars-Stem-1" 3 3 1 1
   Class: 7 uni02E9
   Class: 39 uni02E5.1 uni02E6.1 uni02E7.1 uni02E8.1
   BClass: 7 uni02E9
@@ -183,12 +183,12 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-1"  3 3 1 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Stem" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  "1"  "2"  
-  FClassNames: "0"  
+  SeqLookup: 0 "Single Substitution - Stem"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0" "1" "2"
+  FClassNames: "0"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-Stem-2"  3 3 1 1
+ChainSub2: class "'ccmp' Tone Bars-Stem-2" 3 3 1 1
   Class: 7 uni02E8
   Class: 39 uni02E5.2 uni02E6.2 uni02E7.2 uni02E9.2
   BClass: 7 uni02E8
@@ -198,12 +198,12 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-2"  3 3 1 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Stem" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  "1"  "2"  
-  FClassNames: "0"  
+  SeqLookup: 0 "Single Substitution - Stem"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0" "1" "2"
+  FClassNames: "0"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-Stem-3"  3 3 1 1
+ChainSub2: class "'ccmp' Tone Bars-Stem-3" 3 3 1 1
   Class: 7 uni02E7
   Class: 39 uni02E5.3 uni02E6.3 uni02E8.3 uni02E9.3
   BClass: 7 uni02E7
@@ -213,12 +213,12 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-3"  3 3 1 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Stem" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  "1"  "2"  
-  FClassNames: "0"  
+  SeqLookup: 0 "Single Substitution - Stem"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0" "1" "2"
+  FClassNames: "0"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-Stem-4"  3 3 1 1
+ChainSub2: class "'ccmp' Tone Bars-Stem-4" 3 3 1 1
   Class: 7 uni02E6
   Class: 39 uni02E5.4 uni02E7.4 uni02E8.4 uni02E9.4
   BClass: 7 uni02E6
@@ -228,12 +228,12 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-4"  3 3 1 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Stem" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  "1"  "2"  
-  FClassNames: "0"  
+  SeqLookup: 0 "Single Substitution - Stem"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0" "1" "2"
+  FClassNames: "0"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-Stem-5"  3 3 1 1
+ChainSub2: class "'ccmp' Tone Bars-Stem-5" 3 3 1 1
   Class: 7 uni02E5
   Class: 39 uni02E6.5 uni02E7.5 uni02E8.5 uni02E9.5
   BClass: 7 uni02E5
@@ -243,12 +243,12 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-5"  3 3 1 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Stem" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  "1"  "2"  
-  FClassNames: "0"  
+  SeqLookup: 0 "Single Substitution - Stem"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0" "1" "2"
+  FClassNames: "0"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-1"  3 1 3 2
+ChainSub2: class "'ccmp' Tone Bars-1" 3 1 3 2
   Class: 7 uni02E9
   Class: 31 uni02E5 uni02E6 uni02E7 uni02E8
   FClass: 7 uni02E9
@@ -258,18 +258,18 @@ ChainSub2: class "'ccmp' Tone Bars-1"  3 1 3 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-1" 
+  SeqLookup: 0 "Single Substitution - Stemless Form-1"
  1 0 1
   ClsList: 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-1" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  
-  FClassNames: "0"  "1"  "2"  
+  SeqLookup: 0 "Single Substitution - Stemless Form-1"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0"
+  FClassNames: "0" "1" "2"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-2"  3 1 3 2
+ChainSub2: class "'ccmp' Tone Bars-2" 3 1 3 2
   Class: 7 uni02E8
   Class: 31 uni02E5 uni02E6 uni02E7 uni02E9
   FClass: 7 uni02E8
@@ -279,18 +279,18 @@ ChainSub2: class "'ccmp' Tone Bars-2"  3 1 3 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-2" 
+  SeqLookup: 0 "Single Substitution - Stemless Form-2"
  1 0 1
   ClsList: 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-2" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  
-  FClassNames: "0"  "1"  "2"  
+  SeqLookup: 0 "Single Substitution - Stemless Form-2"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0"
+  FClassNames: "0" "1" "2"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-3"  3 1 3 2
+ChainSub2: class "'ccmp' Tone Bars-3" 3 1 3 2
   Class: 7 uni02E7
   Class: 31 uni02E5 uni02E6 uni02E8 uni02E9
   FClass: 7 uni02E7
@@ -300,18 +300,18 @@ ChainSub2: class "'ccmp' Tone Bars-3"  3 1 3 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-3" 
+  SeqLookup: 0 "Single Substitution - Stemless Form-3"
  1 0 1
   ClsList: 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-3" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  
-  FClassNames: "0"  "1"  "2"  
+  SeqLookup: 0 "Single Substitution - Stemless Form-3"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0"
+  FClassNames: "0" "1" "2"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-4"  3 1 3 2
+ChainSub2: class "'ccmp' Tone Bars-4" 3 1 3 2
   Class: 7 uni02E6
   Class: 31 uni02E5 uni02E7 uni02E8 uni02E9
   FClass: 7 uni02E6
@@ -321,18 +321,18 @@ ChainSub2: class "'ccmp' Tone Bars-4"  3 1 3 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-4" 
+  SeqLookup: 0 "Single Substitution - Stemless Form-4"
  1 0 1
   ClsList: 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-4" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  
-  FClassNames: "0"  "1"  "2"  
+  SeqLookup: 0 "Single Substitution - Stemless Form-4"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0"
+  FClassNames: "0" "1" "2"
 EndFPST
-ChainSub2: class "'ccmp' Tone Bars-5"  3 1 3 2
+ChainSub2: class "'ccmp' Tone Bars-5" 3 1 3 2
   Class: 7 uni02E5
   Class: 31 uni02E6 uni02E7 uni02E8 uni02E9
   FClass: 7 uni02E5
@@ -342,18 +342,18 @@ ChainSub2: class "'ccmp' Tone Bars-5"  3 1 3 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-5" 
+  SeqLookup: 0 "Single Substitution - Stemless Form-5"
  1 0 1
   ClsList: 2
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Single Substitution - Stemless Form-5" 
-  ClassNames: "0"  "1"  "2"  
-  BClassNames: "0"  
-  FClassNames: "0"  "1"  "2"  
+  SeqLookup: 0 "Single Substitution - Stemless Form-5"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0"
+  FClassNames: "0" "1" "2"
 EndFPST
-ChainSub2: class "'ccmp' in Basic"  5 5 5 6
+ChainSub2: class "'ccmp' in Basic" 5 5 5 6
   Class: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   Class: 363 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
   Class: 1028 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01B7 uni01B8 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
@@ -371,42 +371,42 @@ ChainSub2: class "'ccmp' in Basic"  5 5 5 6
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "Single Substitution - Dotless Form" 
+  SeqLookup: 0 "Single Substitution - Dotless Form"
  1 0 2
   ClsList: 1
   BClsList:
   FClsList: 4 2
  1
-  SeqLookup: 0 "Single Substitution - Dotless Form" 
+  SeqLookup: 0 "Single Substitution - Dotless Form"
  1 0 3
   ClsList: 1
   BClsList:
   FClsList: 4 4 2
  1
-  SeqLookup: 0 "Single Substitution - Dotless Form" 
+  SeqLookup: 0 "Single Substitution - Dotless Form"
  1 1 0
   ClsList: 2
   BClsList: 3
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Case Form" 
+  SeqLookup: 0 "Single Substitution - Case Form"
  1 2 0
   ClsList: 2
   BClsList: 4 3
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Case Form" 
+  SeqLookup: 0 "Single Substitution - Case Form"
  1 3 0
   ClsList: 2
   BClsList: 4 4 3
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution - Case Form" 
-  ClassNames: "0"  "1"  "2"  "3"  "4"  
-  BClassNames: "0"  "1"  "2"  "3"  "4"  
-  FClassNames: "0"  "1"  "2"  "3"  "4"  
+  SeqLookup: 0 "Single Substitution - Case Form"
+  ClassNames: "0" "1" "2" "3" "4"
+  BClassNames: "0" "1" "2" "3" "4"
+  FClassNames: "0" "1" "2" "3" "4"
 EndFPST
-ChainSub2: class "'ccmp' in RTL"  3 0 3 1
+ChainSub2: class "'ccmp' in RTL" 3 0 3 1
   Class: 7 uni05E2
   Class: 95 uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7
   FClass: 7 uni05E2
@@ -416,9 +416,9 @@ ChainSub2: class "'ccmp' in RTL"  3 0 3 1
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "Single Substitution lookup 21" 
-  ClassNames: "0"  "1"  "2"  
-  FClassNames: "0"  "1"  "2"  
+  SeqLookup: 0 "Single Substitution lookup 21"
+  ClassNames: "0" "1" "2"
+  FClassNames: "0" "1" "2"
 EndFPST
 TtTable: prep
 PUSHW_1
@@ -2192,7 +2192,7 @@ ShortTable: maxp 16
   2
   1
 EndShort
-LangName: 1033 "" "" "Bold Oblique" "DejaVu Sans Condensed Bold Oblique" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "http://dejavu.sourceforge.net/wiki/index.php/License" "" "DejaVu Sans" "Condensed Bold Oblique" 
+LangName: 1033 "" "" "Bold Oblique" "DejaVu Sans Condensed Bold Oblique" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "http://dejavu.sourceforge.net/wiki/index.php/License" "" "DejaVu Sans" "Condensed Bold Oblique"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
@@ -2200,7 +2200,7 @@ AntiAlias: 1
 FitToEm: 1
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "ogonek"  "'mark' ogonek" "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
+AnchorClass2: "ogonek" "'mark' ogonek" "half" "'mark' half" "above-legacy" "'mark' above-legacy" "cedilla" "'mark' cedilla" "above" "'mark' above" "below" "'mark' below" "lao-above" "'mark' Mark Positioning in Lao lookup 8" "lao-below" "'mark' Mark Positioning in Lao lookup 7" "rtl-above" "'mark' Mark Positioning lookup 6" "rtl-below" "'mark' Mark Positioning lookup 5" "rtl-inside" "'mark' Mark Positioning lookup 4" "above-mark" "'mkmk' above-mark" "below-mark" "'mkmk' below-mark" "lao-above-mark" "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark" "'mkmk' Mark to Mark in Lao lookup 0"
 BeginChars: 1114182 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -17517,7 +17517,7 @@ SplineSet
  285.3 1368 l 1,3,-1
  318.6 1556 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: degree
 Encoding: 176 176 176
@@ -18040,7 +18040,7 @@ SplineSet
  418.5 1262 l 1,3,-1
  729.9 1638 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: mu
 Encoding: 181 181 181
@@ -18860,7 +18860,7 @@ Fore
 Refer: 185 185 N 1 0 0 1 -20.7 0 2
 Refer: 8260 8260 N 1 0 0 1 826.2 0 2
 Refer: 8308 8308 N 1 0 0 1 1031.4 -668 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: onehalf
 Encoding: 189 189 189
@@ -18871,7 +18871,7 @@ Fore
 Refer: 185 185 N 1 0 0 1 -20.7 0 2
 Refer: 178 178 N 1 0 0 1 1115.1 -668 2
 Refer: 8260 8260 N 1 0 0 1 826.2 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: threequarters
 Encoding: 190 190 190
@@ -18882,7 +18882,7 @@ Fore
 Refer: 179 179 N 1 0 0 1 12.6 0 2
 Refer: 8260 8260 N 1 0 0 1 826.2 0 2
 Refer: 8308 8308 N 1 0 0 1 1031.4 -668 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: questiondown
 Encoding: 191 191 191
@@ -21022,7 +21022,7 @@ LayerCount: 2
 Fore
 Refer: 101 101 N 1 0 0 1 0 0 3
 Refer: 168 168 N 1 0 0 1 204.3 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: igrave
 Encoding: 236 236 236
@@ -21032,7 +21032,7 @@ LayerCount: 2
 Fore
 Refer: 305 305 N 1 0 0 1 0 0 3
 Refer: 96 96 N 1 0 0 1 -126.9 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: iacute
 Encoding: 237 237 237
@@ -22952,7 +22952,7 @@ LayerCount: 2
 Fore
 Refer: 73 73 N 1 0 0 1 0 0 2
 Refer: 74 74 N 1 0 0 1 684.9 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ij
 Encoding: 307 307 307
@@ -22971,7 +22971,7 @@ LayerCount: 2
 Fore
 Refer: 105 105 N 1 0 0 1 0 0 2
 Refer: 106 106 N 1 0 0 1 631.8 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 308
@@ -23652,7 +23652,7 @@ LayerCount: 2
 Fore
 Refer: 700 700 N 1 0 0 1 -21.6 0 2
 Refer: 110 110 N 1 0 0 1 474.3 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
@@ -33715,7 +33715,7 @@ SplineSet
  440.1 1339 l 1,3,-1
  485.1 1585 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ring
 Encoding: 730 730 730
@@ -33803,7 +33803,7 @@ SplineSet
  654.3 1374 654.3 1374 692.1 1416 c 128,-1,23
  729.9 1458 729.9 1458 729.9 1524 c 0,12,13
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: ogonek
 Encoding: 731 731 731
@@ -38049,7 +38049,7 @@ SplineSet
  988.2 377 988.2 377 1019.7 559 c 0,4,5
  1045.8 708 1045.8 708 988.2 824 c 0,6,7
  965.7 868 965.7 868 940.5 867 c 1,0,-1
-713.7 -426 m 1,8,-1
+713.7 -426 m 1025,8,-1
 784.8 -24 m 1,9,-1
  713.7 -426 l 1,10,-1
  393.3 -426 l 1,11,-1
@@ -38065,7 +38065,7 @@ SplineSet
  1387.8 816 1387.8 816 1342.8 559 c 0,27,28
  1296 290 1296 290 1115.1 128 c 0,29,30
  981 7 981 7 784.8 -24 c 1,9,-1
-1061.1 1556 m 1,31,-1
+1061.1 1556 m 1025,31,-1
 514.8 266 m 1,32,-1
  620.1 867 l 1,33,34
  594.9 868 594.9 868 556.2 824 c 0,35,36
@@ -40225,7 +40225,6 @@ SplineSet
  841.5 755 841.5 755 809.1 823 c 128,-1,32
  776.7 891 776.7 891 670.5 891 c 128,-1,33
 EndSplineSet
-Substitution2: "'locl' Localized Forms in Cyrillic lookup 3" uniF5C5
 EndChar
 StartChar: uni0432
 Encoding: 1074 1074 1074
@@ -49420,7 +49419,7 @@ SplineSet
  795.57 -350 l 1,2,-1
  165.57 -350 l 1,3,-1
  200.559 -150 l 1,0,-1
-541.8 0 m 25,4,-1
+541.8 0 m 1049,4,-1
 EndSplineSet
 EndChar
 StartChar: uni05B8
@@ -49440,7 +49439,7 @@ SplineSet
  822.055 -70 l 1,6,-1
  787.066 -270 l 1,7,-1
  584.566 -270 l 9,0,-1
-541.8 0 m 25,8,-1
+541.8 0 m 1049,8,-1
 EndSplineSet
 EndChar
 StartChar: uni05B9
@@ -49489,7 +49488,7 @@ SplineSet
  721.273 460 l 1,2,-1
  541.273 460 l 1,3,-1
  576.262 660 l 1,0,-1
-648.768 560 m 25,4,-1
+648.768 560 m 1049,4,-1
 EndSplineSet
 EndChar
 StartChar: uni05BD
@@ -49534,7 +49533,7 @@ SplineSet
  828.9 1255 l 1,2,-1
  243.9 1255 l 1,3,-1
  279 1455 l 1,0,-1
-512.1 1120 m 25,4,-1
+512.1 1120 m 1049,4,-1
 EndSplineSet
 Substitution2: "'salt' Stylistic Alternatives in Hebrew lookup 15" uniFB1E
 Substitution2: "'aalt' Access All Alternates in Hebrew lookup 14" uniFB1E
@@ -68923,7 +68922,7 @@ LayerCount: 2
 Fore
 Refer: 97 97 N 1 0 0 1 0 0 3
 Refer: 702 702 N 1 0 0 1 904.5 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni1E9B
 Encoding: 7835 7835 7835
@@ -73497,7 +73496,7 @@ SplineSet
  1227.6 0 l 1,11,-1
  1296 387 l 1,8,-1
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni2027
 Encoding: 8231 8231 8231
@@ -73880,7 +73879,7 @@ Fore
 Refer: 8245 8245 N 1 0 0 1 675 0 2
 Refer: 8245 8245 N 1 0 0 1 342 0 2
 Refer: 8245 8245 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uni2038
 Encoding: 8248 8248 8248
@@ -74042,7 +74041,7 @@ LayerCount: 2
 Fore
 Refer: 33 33 N 1 0 0 1 -131.4 0 2
 Refer: 33 33 N 1 0 0 1 446.4 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 12" exclam exclam
 EndChar
 StartChar: uni203D
@@ -74259,7 +74258,7 @@ LayerCount: 2
 Fore
 Refer: 63 63 N 1 0 0 1 -63.45 0 2
 Refer: 63 63 N 1 0 0 1 886.05 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 12" question question
 EndChar
 StartChar: uni2048
@@ -74270,7 +74269,7 @@ LayerCount: 2
 Fore
 Refer: 63 63 N 1 0 0 1 0 0 2
 Refer: 33 33 N 1 0 0 1 818.1 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 12" question exclam
 EndChar
 StartChar: uni2049
@@ -74281,7 +74280,7 @@ LayerCount: 2
 Fore
 Refer: 33 33 N 1 0 0 1 -131.4 0 2
 Refer: 63 63 N 1 0 0 1 450.9 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 12" exclam question
 EndChar
 StartChar: uni204A
@@ -77348,7 +77347,7 @@ LayerCount: 2
 Fore
 Refer: 176 176 N 1 0 0 1 0 0 2
 Refer: 70 70 N 1 0 0 1 606.6 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uni210B
 Encoding: 8459 8459 8459
@@ -138750,7 +138749,7 @@ AnchorPoint: "above" 477 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-563.4 762 m 1,0,-1
+563.4 762 m 1025,0,-1
 943.2 951 m 1,1,-1
  827.1 291 l 1,2,-1
  1435.5 291 l 1,3,-1
@@ -143684,7 +143683,7 @@ SplineSet
  996.3 1556 l 1,0,-1
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin" f f
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: fi
 Encoding: 64257 64257 64257
@@ -143876,7 +143875,7 @@ SplineSet
  995.4 1556 l 1,4,-1
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin" f i
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: fl
 Encoding: 64258 64258 64258
@@ -144040,7 +144039,7 @@ SplineSet
  553.5 1556 553.5 1556 747.9 1556 c 2,0,-1
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin" f l
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uniFB03
 Encoding: 64259 64259 64259
@@ -144300,7 +144299,7 @@ SplineSet
  1754.1 1556 l 1,42,-1
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin" f f i
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uniFB04
 Encoding: 64260 64260 64260
@@ -144526,7 +144525,7 @@ SplineSet
  996.3 1556 l 1,0,-1
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin" f f l
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 StartChar: uniFB05
 Encoding: 64261 64261 64261
@@ -144576,7 +144575,7 @@ SplineSet
  867.6 1321 867.6 1321 799.2 1321 c 10,0,-1
 EndSplineSet
 Ligature2: "'hlig' Historic Ligatures in Latin lookup 11" longs t
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uniFB06
 Encoding: 64262 64262 64262
@@ -144650,7 +144649,7 @@ SplineSet
  413.1 1147 413.1 1147 639.9 1147 c 0,106,107
  697.5 1147 697.5 1147 753.3 1141 c 1,0,1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Latin lookup 10" s t
 EndChar
 StartChar: uniFB13
@@ -144723,7 +144722,7 @@ SplineSet
  849.134 843.15 849.134 843.15 852.119 864 c 1,0,0
 EndSplineSet
 Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 9" uni0574 uni0576
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uniFB14
 Encoding: 64276 64276 64276
@@ -144785,7 +144784,7 @@ SplineSet
  1476.08 1299 l 25,0,0
 EndSplineSet
 Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 9" uni0574 uni0565
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uniFB15
 Encoding: 64277 64277 64277
@@ -144843,7 +144842,7 @@ SplineSet
  1209.03 -426 l 9,15,-1
  1510.8 1299 l 25,0,0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 9" uni0574 uni056B
 EndChar
 StartChar: uniFB16
@@ -144909,7 +144908,7 @@ SplineSet
  932.292 1120 l 9,0,0
 EndSplineSet
 Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 9" uni057E uni0576
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 StartChar: uniFB17
 Encoding: 64279 64279 64279
@@ -144980,7 +144979,7 @@ SplineSet
  1209.03 -426 l 9,15,-1
  1510.8 1299 l 25,0,0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 9" uni0574 uni056D
 EndChar
 StartChar: uniFB1D
@@ -164209,6 +164208,68 @@ SplineSet
  180 -492 180 -492 180 -252 c 10,41,-1
  180 1661 l 18,42,43
  180 1901 180 1901 396 1901 c 10,32,-1
+EndSplineSet
+EndChar
+StartChar: u1F12F
+Encoding: 127279 127279 127279
+Width: 1843
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+660 1126 m 1,0,1
+ 714.900390625 1148 714.900390625 1148 772.5 1158.5 c 128,-1,2
+ 830.099609375 1169 830.099609375 1169 892.200195312 1169 c 0,3,4
+ 1082.09960938 1169 1082.09960938 1169 1196.40039062 1052.5 c 128,-1,5
+ 1310.70019531 936 1310.70019531 936 1310.70019531 741 c 0,6,7
+ 1310.70019531 547 1310.70019531 547 1196.40039062 430 c 128,-1,8
+ 1082.09960938 313 1082.09960938 313 892.200195312 313 c 0,9,10
+ 836.400390625 313 836.400390625 313 777.450195312 324.5 c 128,-1,11
+ 718.5 336 718.5 336 660 358 c 1,12,-1
+ 660 571 l 1,13,14
+ 701.400390625 536 701.400390625 536 753.150390625 518 c 128,-1,15
+ 804.900390625 500 804.900390625 500 862.5 500 c 0,16,17
+ 965.099609375 500 965.099609375 500 1021.79980469 563 c 128,-1,18
+ 1078.5 626 1078.5 626 1078.5 741 c 0,19,20
+ 1078.5 855 1078.5 855 1021.34960938 919 c 128,-1,21
+ 964.200195312 983 964.200195312 983 862.5 983 c 0,22,23
+ 811.200195312 983 811.200195312 983 761.25 965.5 c 128,-1,24
+ 711.299804688 948 711.299804688 948 660 911 c 1,25,-1
+ 660 1126 l 1,0,1
+921.6 1331 m 0,26,27
+ 812.7 1331 812.7 1331 719.1 1287.5 c 128,-1,28
+ 625.5 1244 625.5 1244 547.2 1157 c 0,29,30
+ 468.9 1070 468.9 1070 429.75 966.5 c 128,-1,31
+ 390.6 863 390.6 863 390.6 741 c 0,32,33
+ 390.6 620 390.6 620 429.75 516.5 c 128,-1,34
+ 468.9 413 468.9 413 547.2 326 c 0,35,36
+ 624.6 240 624.6 240 718.65 197 c 128,-1,37
+ 812.7 154 812.7 154 921.6 154 c 0,38,39
+ 1032.3 154 1032.3 154 1125 196.5 c 128,-1,40
+ 1217.7 239 1217.7 239 1296 326 c 0,41,42
+ 1374.3 413 1374.3 413 1413.45 516.5 c 128,-1,43
+ 1452.6 620 1452.6 620 1452.6 741 c 0,44,45
+ 1452.6 863 1452.6 863 1413.45 966.5 c 128,-1,46
+ 1374.3 1070 1374.3 1070 1296 1157 c 0,47,48
+ 1216.8 1245 1216.8 1245 1123.65 1288 c 128,-1,49
+ 1030.5 1331 1030.5 1331 921.6 1331 c 0,26,27
+921.6 1485 m 0,50,51
+ 1058.4 1485 1058.4 1485 1176.75 1430 c 128,-1,52
+ 1295.1 1375 1295.1 1375 1393.2 1266 c 0,53,54
+ 1491.3 1157 1491.3 1157 1539.9 1026 c 128,-1,55
+ 1588.5 895 1588.5 895 1588.5 741 c 0,56,57
+ 1588.5 589 1588.5 589 1539.9 458.5 c 128,-1,58
+ 1491.3 328 1491.3 328 1393.2 219 c 0,59,60
+ 1295.1 110 1295.1 110 1176.75 55 c 128,-1,61
+ 1058.4 0 1058.4 0 921.6 0 c 0,62,63
+ 784.8 0 784.8 0 666.45 55 c 128,-1,64
+ 548.1 110 548.1 110 450 219 c 0,65,66
+ 351.9 328 351.9 328 303.3 458.5 c 128,-1,67
+ 254.7 589 254.7 589 254.7 741 c 0,68,69
+ 254.7 895 254.7 895 303.3 1026 c 128,-1,70
+ 351.9 1157 351.9 1157 450 1266 c 0,71,72
+ 548.1 1375 548.1 1375 666.45 1430 c 128,-1,73
+ 784.8 1485 784.8 1485 921.6 1485 c 0,50,51
 EndSplineSet
 EndChar
 StartChar: u1F311
