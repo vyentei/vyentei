@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: DejaVuSansMono-Bold
 FullName: DejaVu Sans Mono Bold
 FamilyName: DejaVu Sans Mono
@@ -1712,7 +1712,7 @@ NameList: AGL without afii
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42807 19 11
+WinInfo: 42807 19 10
 GridOrder2: 1
 Grid
 1 740 m 25,0,-1

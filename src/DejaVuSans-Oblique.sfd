@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: DejaVuSans-Oblique
 FullName: DejaVu Sans Oblique
 FamilyName: DejaVu Sans
@@ -1780,7 +1780,7 @@ NameList: AGL without afii
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42807 19 11
+WinInfo: 42807 19 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "ogonek" "'mark' ogonek" "half" "'mark' half" "above-legacy" "'mark' above-legacy" "cedilla" "'mark' cedilla" "above" "'mark' above" "below" "'mark' below" "Ligature below" "'mark' Mark Positioning lookup 9" "lao-below" "'mark' Mark Positioning in Lao lookup 8" "lao-above" "'mark' Mark Positioning in Lao lookup 7" "rtl-above" "'mark' Mark Positioning lookup 6" "rtl-inside" "'mark' Mark Positioning lookup 5" "rtl-below" "'mark' Mark Positioning lookup 4" "above-mark" "'mkmk' above-mark" "below-mark" "'mkmk' below-mark" "lao-below-mark" "'mkmk' Mark to Mark in Lao lookup 1" "lao-above-mark" "'mkmk' Mark to Mark in Lao lookup 0"
