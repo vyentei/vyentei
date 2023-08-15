@@ -1,31 +1,33 @@
 # QuantiiSans Fonts
-The QuantiiSans fonts are a font family based upon
-[DejaVu fonts](http://gnome.org/fonts/) v2.37.
 
-See [`status.txt`](./status.txt) for more information.
+**note**: Everything here is a work-in-progress, so the README may describe the
+future.
 
-### Available fonts
- - QuantiiSans Mono
- - QuantiiSans Mono Bold
- - QuantiiSans Mono Bold Oblique
- - QuantiiSans Mono Oblique
- - QuantiiSans
- - QuantiiSans Bold
- - QuantiiSans Bold Oblique
- - QuantiiSans Oblique
- - QuantiiSans Math
+The QuantiiSans fonts are a font family based upon [DejaVu fonts] v2.37.  See
+[`status.txt`](./status.txt) for more information.
 
-### Variants and subsets
-All fonts are also available as subset forms called **DejaVu LGC**,
-which include only the Latin, Greek and Cyrillic scripts.
+QuanttiSans Fonts is comprised of two variable fonts; QuantiiSans and
+QuantiiSans Mono.  Both fonts contain QuantiiSans Emoji - a fullwidth monospace
+font (which has variable axes for text-presentation).
+
+## Variable Font Axes
+
+Variable font axes are used to customize the font's look.  `slnt` and `wght` are
+available on QuantiiSans and QuantiiSans Mono, while `wdth` is only available on
+QuantiiSans.  The axes customizations are designed to be noticeable, but not
+extreme.
+
+ - `slnt`: Slant / Obliqueness ("normal" 0, "oblique" 12 degrees)
+ - `wght`: Weight / Boldness ("light" 0.8 weight, "book" 1.0 weight, "bold"
+   1.2 weight)
+ - `wdth`: Width ("condensed" 8/9, "regular" 1.0, "wide" 10/9)
+
+### License
 
 For license information, see [`LICENSE`](./LICENSE).
-Latest changes are described in [`NEWS`](./NEWS).
-All authors are credited  in [`AUTHORS`](./AUTHORS).
 
-Fonts are published in source form as SFD files
-(Spline Font Database from [FontForge](https://fontforge.github.io/))
-and in compiled form as TTF files (TrueType fonts).
+Fonts are published in source form as SFD files (Spline Font Database from
+[FontForge]) and in compiled form as OTF files (OpenType fonts).
 
 Characters from Arev fonts
 --------------------------
@@ -41,9 +43,7 @@ __Copyright (c) 2006 by Tavmjong Bah__
     U+2706-U+2709, U+270C-U+274B, U+2758-U+275A, U+2761-U+2775, U+2780-U+2794,
     U+2798-U+27AF, U+27B1-U+27BE, U+FB05-U+FB06
 
-DejaVu Math TeX Gyre
---------------------
-TeX Gyre DJV Math by B. Jackowski, P. Strzelczyk and P. Pianowski
-(on behalf of TeX users groups).
-
 <!-- $Id$ -->
+
+[DejaVu fonts]: http://gnome.org/fonts/
+[FontForge]: https://fontforge.github.io/
