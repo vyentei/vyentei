@@ -3,8 +3,7 @@
 **note**: Everything here is a work-in-progress, so the README may describe the
 future.
 
-The QuantiiSans fonts are a font family based upon [DejaVu fonts] v2.37.  See
-[`status.txt`](./status.txt) for more information.
+The QuantiiSans fonts are a font family based upon [DejaVu fonts] v2.37.
 
 QuanttiSans Fonts is comprised of two variable fonts; QuantiiSans and
 QuantiiSans Mono.  Both fonts contain QuantiiSans Emoji - a fullwidth monospace
@@ -22,7 +21,25 @@ extreme.
    1.2 weight)
  - `wdth`: Width ("condensed" 8/9, "regular" 1.0, "wide" 10/9)
 
-### License
+## Getting Started
+
+The included tools to aid in the development of this font requires the Rust
+programming language, most recent stable release.  Get it with:
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### Xtasks
+
+To get the most recent version of the unicode data (used to generate unicode
+coverage report):
+
+```shell
+cargo xtask unicode
+```
+
+## License
 
 For license information, see [`LICENSE`](./LICENSE).
 
