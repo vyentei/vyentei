@@ -1,15 +1,22 @@
+mod generate;
 mod unicode;
 
-use std::{io::{Error, ErrorKind, Result}, env};
+use std::{
+    env,
+    io::{Error, ErrorKind},
+};
 
-fn tasks() -> Result<()> {
+type Result<T = (), E = Error> = std::result::Result<T, E>;
+
+fn tasks() -> Result {
     eprintln!("Valid arguments:");
     eprintln!(" — unicode      Fetch updated unicode data from unicode.org");
+    eprintln!(" — generate     Generate font variants and OTF output");
 
     Ok(())
 }
 
-fn main() -> Result<()> {
+fn main() -> Result {
     let Some(task) = env::args().nth(1) else {
         tasks()?;
 
@@ -18,6 +25,7 @@ fn main() -> Result<()> {
 
     match task.as_str() {
         "unicode" => unicode::main(),
+        "generate" => generate::main(),
         _ => tasks(),
     }
 }

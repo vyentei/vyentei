@@ -16,7 +16,8 @@ available on QuantiiSans and QuantiiSans Mono, while `wdth` is only available on
 QuantiiSans.  The axes customizations are designed to be noticeable, but not
 extreme.
 
- - `slnt`: Slant / Obliqueness ("normal" 0, "oblique" 12 degrees)
+ - `slnt`: Slant / Obliqueness ("normal" 0, "oblique" 10 degrees, "extra
+   oblique" 20 degrees)
  - `wght`: Weight / Boldness ("light" 0.8 weight, "book" 1.0 weight, "bold"
    1.2 weight)
  - `wdth`: Width ("condensed" 8/9, "regular" 1.0, "wide" 10/9)
@@ -30,6 +31,13 @@ programming language, most recent stable release.  Get it with:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+Additionally, FontForge and Python need to be installed:
+
+```shell
+dnf install python3 fontforge
+pip3 install psMat
+```
+
 ### Xtasks
 
 To get the most recent version of the unicode data (used to generate unicode
@@ -37,6 +45,12 @@ coverage report):
 
 ```shell
 cargo xtask unicode
+```
+
+To generate the OTF fonts, run:
+
+```shell
+cargo xtask generate
 ```
 
 ## License

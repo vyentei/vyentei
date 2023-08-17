@@ -1,9 +1,15 @@
-/**/*.DS_Store
-/target/
 /build/
 /dist/
-/tmp/
-/src/*.sfd~
+/generated/
 /resources/Blocks.txt
 /resources/UnicodeData.txt
 /resources/fc-lang
+/target/
+/tmp/
+
+# Files that end in ~ tend to be autosave files
+*~
+# Apple folder metadata
+*.DS_Store
+# Vim autosave files
+.*.swp
