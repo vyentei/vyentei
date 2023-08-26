@@ -9,6 +9,87 @@ use crate::{Error, ErrorKind, Result};
 
 const GENERATED_PATH: &str = "./generated/";
 
+fn oblique(script_name: &str, font_name: &str, marks: &str, shift: i32) -> Result {
+    Command::new("python3")
+        .arg(script_name)
+        .arg(marks)
+        .status()?
+        .success()
+        .then_some(())
+        .ok_or_else(|| {
+            Error::new(
+                ErrorKind::Other,
+                format!("Failed to generate {font_name}!"),
+            )
+        })?;
+
+    let mut output = BufWriter::new(File::create(format!(
+        "./generated/{font_name}.sfd.tmp"
+    ))?);
+    let mut should_shift = true;
+
+    for line in
+        BufReader::new(File::open(format!("./generated/{font_name}.sfd"))?)
+            .lines()
+    {
+        let line = line?;
+
+        if line.starts_with("Refer: ") && should_shift {
+            let items: Vec<&str> = line.split(' ').collect();
+            let x: i32 = items[items.len() - 3].parse().map_err(|e| {
+                println!("Invalid line: {line}");
+
+                Error::new(ErrorKind::Other, e)
+            })?;
+            let y: i32 = items[items.len() - 2].parse().map_err(|e| {
+                println!("Invalid line: {line}");
+
+                Error::new(ErrorKind::Other, e)
+            })?;
+            let x = x + shift;
+            let mut line = String::new();
+
+            for item in items.iter().take(items.len() - 3) {
+                write!(&mut line, "{item} ").unwrap();
+            }
+
+            write!(&mut line, "{x} {y} {}", items[items.len() - 1]).unwrap();
+
+            writeln!(&mut output, "{line}")?;
+        } else if line.starts_with("FontName: ") {
+            writeln!(&mut output, "{line}-Oblique")?;
+        } else if line.starts_with("FullName: ") {
+            writeln!(&mut output, "{line} Oblique")?;
+        } else if line.starts_with("LangName: ") {
+            let items: Vec<&str> = line.split(' ').rev().skip(1).collect();
+
+            for item in items.iter().rev() {
+                write!(&mut output, "{item} ")?;
+            }
+
+            writeln!(&mut output, "\"Oblique\"")?;
+        } else {
+            if let Some(codepoint) = line.strip_prefix("StartChar: uni") {
+                should_shift =
+                    if let Ok(bytes) = u32::from_str_radix(codepoint, 16) {
+                        char::from_u32(bytes).is_some()
+                    } else {
+                        false
+                    };
+            } else if line.starts_with("StartChar: ") {
+                should_shift = true;
+            }
+
+            writeln!(&mut output, "{line}")?;
+        }
+    }
+
+    fs::rename(
+        format!("./generated/{font_name}.sfd.tmp"),
+        format!("./generated/{font_name}.sfd"),
+    )
+}
+
 pub fn main() -> Result {
     println!("Clearing generated folder…");
     fs::remove_dir_all(GENERATED_PATH).ok();
@@ -49,86 +130,21 @@ pub fn main() -> Result {
 
     marks.pop();
     println!("Generating QuantiiSans-Oblique…");
-
-    Command::new("python3")
-        .arg("./tools/python/generate-oblique.py")
-        .arg(marks.as_str())
-        .status()?
-        .success()
-        .then_some(())
-        .ok_or_else(|| {
-            Error::new(
-                ErrorKind::Other,
-                "Failed to generate QuantiiSans-Oblique!",
-            )
-        })?;
-
-    let mut output = BufWriter::new(File::create(
-        "./generated/QuantiiSans-Oblique.sfd.tmp",
-    )?);
-    let mut should_shift = true;
-
-    for line in
-        BufReader::new(File::open("./generated/QuantiiSans-Oblique.sfd")?)
-            .lines()
-    {
-        let line = line?;
-
-        if line.starts_with("Refer: ") && should_shift {
-            let items: Vec<&str> = line.split(' ').collect();
-            let x: i32 = items[items.len() - 3].parse().map_err(|e| {
-                println!("Invalid line: {line}");
-
-                Error::new(ErrorKind::Other, e)
-            })?;
-            let y: i32 = items[items.len() - 2].parse().map_err(|e| {
-                println!("Invalid line: {line}");
-
-                Error::new(ErrorKind::Other, e)
-            })?;
-            let x = x + 89;
-            let mut line = String::new();
-
-            for item in items.iter().take(items.len() - 3) {
-                write!(&mut line, "{item} ").unwrap();
-            }
-
-            write!(&mut line, "{x} {y} {}", items[items.len() - 1]).unwrap();
-
-            writeln!(&mut output, "{line}")?;
-        } else if line.starts_with("FontName: ") {
-            writeln!(&mut output, "{line}-Oblique")?;
-        } else if line.starts_with("FullName: ") {
-            writeln!(&mut output, "{line} Oblique")?;
-        } else if line.starts_with("LangName: ") {
-            let items: Vec<&str> = line.split(' ').rev().skip(1).collect();
-
-            for item in items.iter().rev() {
-                write!(&mut output, "{item} ")?;
-            }
-
-            writeln!(&mut output, "\"Oblique\"")?;
-        } else {
-            if let Some(codepoint) = line.strip_prefix("StartChar: uni") {
-                should_shift =
-                    if let Ok(bytes) = u32::from_str_radix(codepoint, 16) {
-                        char::from_u32(bytes).is_some()
-                    } else {
-                        false
-                    };
-            } else if line.starts_with("StartChar: ") {
-                should_shift = true;
-            }
-
-            writeln!(&mut output, "{line}")?;
-        }
-    }
-
-    fs::rename(
-        "./generated/QuantiiSans-Oblique.sfd.tmp",
-        "./generated/QuantiiSans-Oblique.sfd",
+    oblique(
+        "./tools/python/generate-oblique.py",
+        "QuantiiSans-Oblique",
+        marks.as_str(),
+        89,
     )?;
     println!("Generated QuantiiSans-Oblique!");
+    println!("Generating QuantiiSansMono-Oblique…");
+    oblique(
+        "./tools/python/generate-mono-oblique.py",
+        "QuantiiSansMono-Oblique",
+        "",
+        89,
+    )?;
+    println!("Generated QuantiiSansMono-Oblique!");
     println!("Generating OTF files…");
 
     Command::new("python3")

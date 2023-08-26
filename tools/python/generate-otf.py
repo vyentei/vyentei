@@ -13,6 +13,12 @@ def main():
     font = fontforge.open("./generated/QuantiiSans-Oblique.sfd")
     font.generate("./generated/QuantiiSans-Oblique.otf")
 
+    font = fontforge.open("./src/QuantiiSansMono.sfd")
+    font.generate("./generated/QuantiiSansMono.otf")
+
+    font = fontforge.open("./generated/QuantiiSansMono-Oblique.sfd")
+    font.generate("./generated/QuantiiSansMono-Oblique.otf")
+
     return
 
 main()
