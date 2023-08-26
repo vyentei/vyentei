@@ -9,32 +9,6 @@ use crate::{Error, ErrorKind, Result};
 
 const GENERATED_PATH: &str = "./generated/";
 
-/*
-const SLANT_MATRIX: [[f64; 2]; 2] = [
-    [1.0, 0.0],
-    [0.17632698070846498, 1.0],
-];
-
-fn matrix_inv(matrix: [[f64; 2]; 2]) -> [[f64; 2]; 2] {
-    let [[a, b], [c, d]] = matrix;
-    let div = a * d - b * c;
-    let mul = div.recip();
-
-    [[mul * d, -mul * b], [-mul * c, mul * a]]
-}
-
-fn vector_mul_matrix(vector: [f64; 2], matrix: [[f64; 2]; 2]) -> [f64; 2] {
-    [
-        matrix[0][0] * vector[0] + matrix[0][1] * vector[1],
-        matrix[1][0] * vector[0] + matrix[1][1] * vector[1],
-    ]
-}
-
-fn vector_round(vector: [f64; 2]) -> [i32; 2] {
-    [vector[0].round() as i32, vector[1].round() as i32]
-}
-*/
-
 pub fn main() -> Result {
     println!("Clearing generated folder…");
     fs::remove_dir_all(GENERATED_PATH).ok();
@@ -113,18 +87,13 @@ pub fn main() -> Result {
                 Error::new(ErrorKind::Other, e)
             })?;
             let x = x + 89;
-            /*let inverse = matrix_inv(SLANT_MATRIX);
-            let [x, y] = vector_mul_matrix([x.into(), y.into()], inverse);
-            let x = x + 89.0;
-            let vector = vector_mul_matrix([x, y], SLANT_MATRIX);
-            let [x, y] = vector_round(vector);*/
             let mut line = String::new();
 
             for item in items.iter().take(items.len() - 3) {
                 write!(&mut line, "{item} ").unwrap();
             }
 
-            write!(&mut line, "{x} {y} {}", items[items.len() - 1],).unwrap();
+            write!(&mut line, "{x} {y} {}", items[items.len() - 1]).unwrap();
 
             writeln!(&mut output, "{line}")?;
         } else if line.starts_with("FontName: ") {
@@ -174,4 +143,57 @@ pub fn main() -> Result {
     println!("Generated OTF files!");
 
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    const SLANT_MATRIX: [[f64; 2]; 2] =
+        [[1.0, 0.0], [0.17632698070846498, 1.0]];
+
+    fn matrix_inv(matrix: [[f64; 2]; 2]) -> [[f64; 2]; 2] {
+        let [[a, b], [c, d]] = matrix;
+        let div = a * d - b * c;
+        let mul = div.recip();
+
+        [[mul * d, -mul * b], [-mul * c, mul * a]]
+    }
+
+    fn vector_mul_matrix(vector: [f64; 2], matrix: [[f64; 2]; 2]) -> [f64; 2] {
+        [
+            matrix[0][0] * vector[0] + matrix[1][0] * vector[1],
+            matrix[0][1] * vector[0] + matrix[1][1] * vector[1],
+        ]
+    }
+
+    /*fn vector_round(vector: [f64; 2]) -> [i32; 2] {
+        [vector[0].round() as i32, vector[1].round() as i32]
+    }*/
+
+    #[test]
+    fn inverse() {
+        let matrix = SLANT_MATRIX;
+        let inverse = matrix_inv(SLANT_MATRIX);
+        let vectors = [[0.0, 0.0], [1.0, 1.0], [1.0, 0.0], [0.0, 1.0]];
+
+        for [x, y] in vectors {
+            let orig = [x, y];
+            let [x, y] = vector_mul_matrix([x, y], inverse);
+            let vector = vector_mul_matrix([x, y], matrix);
+
+            assert_eq!(vector, orig);
+        }
+    }
+
+    #[test]
+    fn slant() {
+        let matrix = SLANT_MATRIX;
+        let vectors = [[0.0, 0.0], [1.0, 1.0], [1.0, 0.0], [0.0, 1.0]];
+
+        for [x, y] in vectors {
+            let [ox, oy] = [x, y];
+            let [x, y] = vector_mul_matrix([x, y], matrix);
+
+            println!("({ox}, {oy}) ({x}, {y})");
+        }
+    }
 }
