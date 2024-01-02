@@ -512,6 +512,691 @@ ChainSub2: class "'ccmp' in RTL" 3 0 3 1
   ClassNames: "0" "1" "2"
   FClassNames: "0" "1" "2"
 EndFPST
+ShortTable: maxp 16
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  2
+  1
+  2
+  22
+  0
+  256
+  0
+  0
+  0
+EndShort
+TtTable: prep
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 1
+SCANTYPE
+SVTCA[y-axis]
+MPPEM
+PUSHB_1
+ 8
+LT
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHB_2
+ 70
+ 6
+CALL
+IF
+POP
+PUSHB_1
+ 16
+EIF
+MPPEM
+PUSHB_1
+ 20
+GT
+IF
+POP
+PUSHB_1
+ 128
+EIF
+SCVTCI
+PUSHB_1
+ 6
+CALL
+NOT
+IF
+EIF
+PUSHB_1
+ 20
+CALL
+EndTTInstrs
+TtTable: fpgm
+PUSHB_1
+ 0
+FDEF
+PUSHB_1
+ 0
+SZP0
+MPPEM
+PUSHB_1
+ 42
+LT
+IF
+PUSHB_1
+ 74
+SROUND
+EIF
+PUSHB_1
+ 0
+SWAP
+MIAP[rnd]
+RTG
+PUSHB_1
+ 6
+CALL
+IF
+RTDG
+EIF
+MPPEM
+PUSHB_1
+ 42
+LT
+IF
+RDTG
+EIF
+DUP
+MDRP[rp0,rnd,grey]
+PUSHB_1
+ 1
+SZP0
+MDAP[no-rnd]
+RTG
+ENDF
+PUSHB_1
+ 1
+FDEF
+DUP
+MDRP[rp0,min,white]
+PUSHB_1
+ 12
+CALL
+ENDF
+PUSHB_1
+ 2
+FDEF
+MPPEM
+GT
+IF
+RCVT
+SWAP
+EIF
+POP
+ENDF
+PUSHB_1
+ 3
+FDEF
+ROUND[Black]
+RTG
+DUP
+PUSHB_1
+ 64
+LT
+IF
+POP
+PUSHB_1
+ 64
+EIF
+ENDF
+PUSHB_1
+ 4
+FDEF
+PUSHB_1
+ 6
+CALL
+IF
+POP
+SWAP
+POP
+ROFF
+IF
+MDRP[rp0,min,rnd,black]
+ELSE
+MDRP[min,rnd,black]
+EIF
+ELSE
+MPPEM
+GT
+IF
+IF
+MIRP[rp0,min,rnd,black]
+ELSE
+MIRP[min,rnd,black]
+EIF
+ELSE
+SWAP
+POP
+PUSHB_1
+ 5
+CALL
+IF
+PUSHB_1
+ 70
+SROUND
+EIF
+IF
+MDRP[rp0,min,rnd,black]
+ELSE
+MDRP[min,rnd,black]
+EIF
+EIF
+EIF
+RTG
+ENDF
+PUSHB_1
+ 5
+FDEF
+GFV
+NOT
+AND
+ENDF
+PUSHB_1
+ 6
+FDEF
+PUSHB_2
+ 34
+ 1
+GETINFO
+LT
+IF
+PUSHB_1
+ 32
+GETINFO
+NOT
+NOT
+ELSE
+PUSHB_1
+ 0
+EIF
+ENDF
+PUSHB_1
+ 7
+FDEF
+PUSHB_2
+ 36
+ 1
+GETINFO
+LT
+IF
+PUSHB_1
+ 64
+GETINFO
+NOT
+NOT
+ELSE
+PUSHB_1
+ 0
+EIF
+ENDF
+PUSHB_1
+ 8
+FDEF
+SRP2
+SRP1
+DUP
+IP
+MDAP[rnd]
+ENDF
+PUSHB_1
+ 9
+FDEF
+DUP
+RDTG
+PUSHB_1
+ 6
+CALL
+IF
+MDRP[rnd,grey]
+ELSE
+MDRP[min,rnd,black]
+EIF
+DUP
+PUSHB_1
+ 3
+CINDEX
+MD[grid]
+SWAP
+DUP
+PUSHB_1
+ 4
+MINDEX
+MD[orig]
+PUSHB_1
+ 0
+LT
+IF
+ROLL
+NEG
+ROLL
+SUB
+DUP
+PUSHB_1
+ 0
+LT
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+ROLL
+ROLL
+SUB
+DUP
+PUSHB_1
+ 0
+GT
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+EIF
+RTG
+ENDF
+PUSHB_1
+ 10
+FDEF
+PUSHB_1
+ 6
+CALL
+IF
+POP
+SRP0
+ELSE
+SRP0
+POP
+EIF
+ENDF
+PUSHB_1
+ 11
+FDEF
+DUP
+MDRP[rp0,white]
+PUSHB_1
+ 12
+CALL
+ENDF
+PUSHB_1
+ 12
+FDEF
+DUP
+MDAP[rnd]
+PUSHB_1
+ 7
+CALL
+NOT
+IF
+DUP
+DUP
+GC[orig]
+SWAP
+GC[cur]
+SUB
+ROUND[White]
+DUP
+IF
+DUP
+ABS
+DIV
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+EIF
+ENDF
+PUSHB_1
+ 13
+FDEF
+SRP2
+SRP1
+DUP
+DUP
+IP
+MDAP[rnd]
+DUP
+ROLL
+DUP
+GC[orig]
+ROLL
+GC[cur]
+SUB
+SWAP
+ROLL
+DUP
+ROLL
+SWAP
+MD[orig]
+PUSHB_1
+ 0
+LT
+IF
+SWAP
+PUSHB_1
+ 0
+GT
+IF
+PUSHB_1
+ 64
+SHPIX
+ELSE
+POP
+EIF
+ELSE
+SWAP
+PUSHB_1
+ 0
+LT
+IF
+PUSHB_1
+ 64
+NEG
+SHPIX
+ELSE
+POP
+EIF
+EIF
+ENDF
+PUSHB_1
+ 14
+FDEF
+PUSHB_1
+ 6
+CALL
+IF
+RTDG
+MDRP[rp0,rnd,white]
+RTG
+POP
+POP
+ELSE
+DUP
+MDRP[rp0,rnd,white]
+ROLL
+MPPEM
+GT
+IF
+DUP
+ROLL
+SWAP
+MD[grid]
+DUP
+PUSHB_1
+ 0
+NEQ
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+EIF
+ENDF
+PUSHB_1
+ 15
+FDEF
+SWAP
+DUP
+MDRP[rp0,rnd,white]
+DUP
+MDAP[rnd]
+PUSHB_1
+ 7
+CALL
+NOT
+IF
+SWAP
+DUP
+IF
+MPPEM
+GTEQ
+ELSE
+POP
+PUSHB_1
+ 1
+EIF
+IF
+ROLL
+PUSHB_1
+ 4
+MINDEX
+MD[grid]
+SWAP
+ROLL
+SWAP
+DUP
+ROLL
+MD[grid]
+ROLL
+SWAP
+SUB
+SHPIX
+ELSE
+POP
+POP
+POP
+POP
+EIF
+ELSE
+POP
+POP
+POP
+POP
+POP
+EIF
+ENDF
+PUSHB_1
+ 16
+FDEF
+DUP
+MDRP[rp0,min,white]
+PUSHB_1
+ 18
+CALL
+ENDF
+PUSHB_1
+ 17
+FDEF
+DUP
+MDRP[rp0,white]
+PUSHB_1
+ 18
+CALL
+ENDF
+PUSHB_1
+ 18
+FDEF
+DUP
+MDAP[rnd]
+PUSHB_1
+ 7
+CALL
+NOT
+IF
+DUP
+DUP
+GC[orig]
+SWAP
+GC[cur]
+SUB
+ROUND[White]
+ROLL
+DUP
+GC[orig]
+SWAP
+GC[cur]
+SWAP
+SUB
+ROUND[White]
+ADD
+DUP
+IF
+DUP
+ABS
+DIV
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+ENDF
+PUSHB_1
+ 19
+FDEF
+DUP
+ROLL
+DUP
+ROLL
+SDPVTL[orthog]
+DUP
+PUSHB_1
+ 3
+CINDEX
+MD[orig]
+ABS
+SWAP
+ROLL
+SPVTL[orthog]
+PUSHB_1
+ 32
+LT
+IF
+ALIGNRP
+ELSE
+MDRP[grey]
+EIF
+ENDF
+PUSHB_1
+ 20
+FDEF
+PUSHB_4
+ 0
+ 64
+ 1
+ 64
+WS
+WS
+SVTCA[x-axis]
+MPPEM
+PUSHW_1
+ 4096
+MUL
+SVTCA[y-axis]
+MPPEM
+PUSHW_1
+ 4096
+MUL
+DUP
+ROLL
+DUP
+ROLL
+NEQ
+IF
+DUP
+ROLL
+DUP
+ROLL
+GT
+IF
+SWAP
+DIV
+DUP
+PUSHB_1
+ 0
+SWAP
+WS
+ELSE
+DIV
+DUP
+PUSHB_1
+ 1
+SWAP
+WS
+EIF
+DUP
+PUSHB_1
+ 64
+GT
+IF
+PUSHB_3
+ 0
+ 32
+ 0
+RS
+MUL
+WS
+PUSHB_3
+ 1
+ 32
+ 1
+RS
+MUL
+WS
+PUSHB_1
+ 32
+MUL
+PUSHB_1
+ 25
+NEG
+JMPR
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+ENDF
+PUSHB_1
+ 21
+FDEF
+PUSHB_1
+ 1
+RS
+MUL
+SWAP
+PUSHB_1
+ 0
+RS
+MUL
+SWAP
+ENDF
+EndTTInstrs
+ShortTable: cvt  5
+  -426
+  0
+  1120
+  1493
+  1556
+EndShort
 LangName: 1033 "" "" "" "QuantiiSans" "" "0.1.0" "" "" "Ardaku" "" "" "https://ardaku.org" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. QuantiiSans changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "https://github.com/ardaku/quantii-sans/blob/stable/LICENSE" "" "QuantiiSans" "Book"
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -1979,30 +2664,13 @@ AnchorPoint: "above" 807 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-807 1356 m 128,-1,1
- 587 1356 587 1356 457.5 1192 c 128,-1,2
- 328 1028 328 1028 328 745 c 0,3,4
- 328 463 328 463 457.5 299 c 128,-1,5
- 587 135 587 135 807 135 c 128,-1,6
- 1027 135 1027 135 1155.5 299 c 128,-1,7
- 1284 463 1284 463 1284 745 c 0,8,9
- 1284 1028 1284 1028 1155.5 1192 c 128,-1,0
- 1027 1356 1027 1356 807 1356 c 128,-1,1
-1090 27 m 1,10,-1
- 1356 -264 l 1,11,-1
- 1112 -264 l 1,12,-1
- 891 -25 l 1,13,14
- 858 -27 858 -27 840.5 -28 c 128,-1,15
- 823 -29 823 -29 807 -29 c 0,16,17
- 492 -29 492 -29 303.5 181.5 c 128,-1,18
- 115 392 115 392 115 745 c 0,19,20
- 115 1099 115 1099 303.5 1309.5 c 128,-1,21
- 492 1520 492 1520 807 1520 c 0,22,23
- 1121 1520 1121 1520 1309 1309.5 c 128,-1,24
- 1497 1099 1497 1099 1497 745 c 0,25,26
- 1497 485 1497 485 1392.5 300 c 128,-1,27
- 1288 115 1288 115 1090 27 c 1,10,-1
+1019 536 m 1
+ 1502 58 l 1
+ 1366 -53 l 1
+ 883 425 l 1
+ 1019 536 l 1
 EndSplineSet
+Refer: 79 79 N 1 0 0 1 0 0 2
 EndChar
 StartChar: R
 Encoding: 82 82 82
@@ -63990,11 +64658,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-457 1556 m 1
- 641 1556 l 1
- 595 1323 l 1
- 411 1323 l 1
- 457 1556 l 1
+457 1556 m 1,0,-1
+ 641 1556 l 1,1,-1
+ 595 1323 l 1,2,-1
+ 411 1323 l 1,3,-1
+ 457 1556 l 1,0,-1
 EndSplineSet
 Refer: 1114202 -1 N 1 0 0 1 0 0 2
 Substitution2: "Single Substitution - Dotless Form" uni2148.dotless
@@ -64006,11 +64674,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-457 1556 m 1
- 641 1556 l 1
- 595 1323 l 1
- 411 1323 l 1
- 457 1556 l 1
+457 1556 m 1,0,-1
+ 641 1556 l 1,1,-1
+ 595 1323 l 1,2,-1
+ 411 1323 l 1,3,-1
+ 457 1556 l 1,0,-1
 EndSplineSet
 Refer: 1114203 -1 N 1 0 0 1 0 0 2
 Substitution2: "Single Substitution - Dotless Form" uni2149.dotless
