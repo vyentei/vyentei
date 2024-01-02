@@ -1979,11 +1979,11 @@ AnchorPoint: "above" 807 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1050 563 m 1
+964 674 m 1
  1552 0 l 1
  1330 0 l 1
  828 563 l 1
- 1050 563 l 1
+ 964 674 l 1
 EndSplineSet
 Refer: 79 79 N 1 0 0 1 0 0 2
 EndChar
