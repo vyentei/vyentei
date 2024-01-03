@@ -2474,27 +2474,27 @@ Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" I.alt
 EndChar
 StartChar: J
 Encoding: 74 74 74
-Width: 1179
+Width: 1157
 Flags: W
 AnchorPoint: "half" 192 1520 basechar 0
-AnchorPoint: "below" 625 -20 basechar 0
-AnchorPoint: "above" 494 1520 basechar 0
+AnchorPoint: "below" 614 -20 basechar 0
+AnchorPoint: "above" 483 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 131 1493 m 1,0,-1
- 1119 1493 l 1,1,-1
- 1119 1323 l 1,2,-1
- 726 1323 l 1,3,-1
- 726 537 l 2,4,5
- 726 267 726 267 612 133.5 c 128,-1,6
- 498 0 498 0 271 0 c 2,7,-1
+ 1097 1493 l 1,1,-1
+ 1097 1323 l 1,2,-1
+ 715 1323 l 1,3,-1
+ 715 537 l 2,4,5
+ 715 267 715 267 601 133.5 c 128,-1,6
+ 487 0 487 0 260 0 c 2,7,-1
  131 0 l 1,8,-1
  131 170 l 1,9,-1
- 257 170 l 2,10,11
- 391 170 391 170 457.5 256.5 c 128,-1,12
- 524 343 524 343 524 537 c 2,13,-1
- 524 1323 l 1,14,-1
+ 246 170 l 2,10,11
+ 380 170 380 170 446.5 256.5 c 128,-1,12
+ 513 343 513 343 513 537 c 2,13,-1
+ 513 1323 l 1,14,-1
  131 1323 l 1,15,-1
  131 1493 l 1,0,-1
 EndSplineSet
@@ -6390,7 +6390,7 @@ LCarets2: 1 0
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 308
-Width: 1179
+Width: 1157
 Flags: W
 LayerCount: 2
 Fore
@@ -17869,7 +17869,7 @@ Refer: 59 59 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni037F
 Encoding: 895 895 895
-Width: 1179
+Width: 1157
 Flags: W
 AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 302 1520 basechar 0
@@ -20591,7 +20591,7 @@ Refer: 207 207 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0408
 Encoding: 1032 1032 1032
-Width: 1179
+Width: 1157
 Flags: W
 LayerCount: 2
 Fore
