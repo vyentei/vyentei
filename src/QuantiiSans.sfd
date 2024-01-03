@@ -2474,29 +2474,29 @@ Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" I.alt
 EndChar
 StartChar: J
 Encoding: 74 74 74
-Width: 1157
+Width: 1015
 Flags: W
 AnchorPoint: "half" 192 1520 basechar 0
-AnchorPoint: "below" 614 -20 basechar 0
-AnchorPoint: "above" 483 1520 basechar 0
+AnchorPoint: "below" 543 -20 basechar 0
+AnchorPoint: "above" 412 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-131 1493 m 1,1,-1
- 1097 1493 l 1,2,-1
- 1097 1323 l 1,3,-1
- 715 1323 l 1,4,-1
- 715 554 l 2,5,6
- 715 284 715 284 592.5 142 c 128,-1,7
- 470 0 470 0 243 0 c 2,8,-1
- 131 0 l 1,9,-1
- 131 170 l 1,10,-1
- 229 170 l 2,11,12
- 363 170 363 170 438 265 c 128,-1,13
- 513 360 513 360 513 554 c 2,14,-1
- 513 1323 l 1,15,-1
- 131 1323 l 1,16,-1
- 131 1493 l 1,1,-1
+131 1493 m 1,0,-1
+ 955 1493 l 1,1,-1
+ 955 1323 l 1,2,-1
+ 644 1323 l 1,3,-1
+ 644 554 l 2,4,5
+ 644 284 644 284 521.5 142 c 128,-1,6
+ 399 0 399 0 172 0 c 2,7,-1
+ 60 0 l 1,8,-1
+ 60 170 l 1,9,-1
+ 158 170 l 2,10,11
+ 292 170 292 170 367 265 c 128,-1,12
+ 442 360 442 360 442 554 c 2,13,-1
+ 442 1323 l 1,14,-1
+ 131 1323 l 1,15,-1
+ 131 1493 l 1,0,-1
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 29" J.alt
 Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" J.alt
@@ -6390,7 +6390,7 @@ LCarets2: 1 0
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 308
-Width: 1157
+Width: 1015
 Flags: W
 LayerCount: 2
 Fore
@@ -17869,7 +17869,7 @@ Refer: 59 59 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni037F
 Encoding: 895 895 895
-Width: 1157
+Width: 1015
 Flags: W
 AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 302 1520 basechar 0
@@ -20591,7 +20591,7 @@ Refer: 207 207 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0408
 Encoding: 1032 1032 1032
-Width: 1157
+Width: 1015
 Flags: W
 LayerCount: 2
 Fore
