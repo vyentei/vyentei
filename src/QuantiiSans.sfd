@@ -125,7 +125,7 @@ KernClass2: 52 80 "'kern' Horizontal Kerning in Latin lookup 16"
  1 F
  8 G Gbreve
  1 H
- 11 J T uniA724
+ 27 J T uni01C7 uni01CA uniA724
  9 K uniA740
  15 L Lacute Lcaron
  44 O Ograve Oacute Ocircumflex Otilde Odieresis
@@ -2476,7 +2476,7 @@ StartChar: J
 Encoding: 74 74 74
 Width: 1063
 Flags: W
-AnchorPoint: "half" 215 1520 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 567 -20 basechar 0
 AnchorPoint: "above" 567 1520 basechar 0
 LayerCount: 2
@@ -9295,11 +9295,11 @@ LCarets2: 1 0
 EndChar
 StartChar: uni01C7
 Encoding: 455 455 455
-Width: 2170
+Width: 2204
 Flags: W
 LayerCount: 2
 Fore
-Refer: 74 74 N 1 0 0 1 1169 0 2
+Refer: 74 74 N 1 0 0 1 1141 0 2
 Refer: 76 76 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 EndChar
@@ -9325,11 +9325,11 @@ LCarets2: 1 0
 EndChar
 StartChar: uni01CA
 Encoding: 458 458 458
-Width: 2366
+Width: 2595
 Flags: W
 LayerCount: 2
 Fore
-Refer: 74 74 N 1 0 0 1 1375 0 2
+Refer: 74 74 N 1 0 0 1 1532 0 2
 Refer: 78 78 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 EndChar
