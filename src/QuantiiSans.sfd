@@ -55780,7 +55780,7 @@ Refer: 803 803 N 1 0 0 1 1075 0 2
 EndChar
 StartChar: uni1EB8
 Encoding: 7864 7864 7864
-Width: 1294
+Width: 1254
 Flags: W
 LayerCount: 2
 Fore
@@ -113288,7 +113288,7 @@ Refer: 86 86 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni2D39
 Encoding: 11577 11577 11577
-Width: 1294
+Width: 1254
 Flags: W
 LayerCount: 2
 Fore
@@ -131816,7 +131816,7 @@ Refer: 68 68 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5A4
 Encoding: 120228 120228 120228
-Width: 1294
+Width: 1254
 Flags: W
 LayerCount: 2
 Fore
