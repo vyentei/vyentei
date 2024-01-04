@@ -3705,8 +3705,8 @@ SplineSet
  1069 1120 l 1,11,-1
  1069 0 l 1,12,-1
  885 0 l 1,13,-1
- 885 172 l 1,14,15
- 818 70 818 70 729.5 20.5 c 128,-1,16
+ 870 92 l 1,14,15
+ 839 30 839 30 740 0.5 c 128,-1,16
  641 -29 641 -29 524 -29 c 0,17,18
  331 -29 331 -29 231 91 c 128,-1,19
  131 211 131 211 131 442 c 2,0,-1
@@ -56228,7 +56228,7 @@ Refer: 431 431 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EE9
 Encoding: 7913 7913 7913
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -56246,7 +56246,7 @@ Refer: 431 431 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EEB
 Encoding: 7915 7915 7915
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -56264,7 +56264,7 @@ Refer: 777 777 N 1 0 0 1 1262 373 2
 EndChar
 StartChar: uni1EED
 Encoding: 7917 7917 7917
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
