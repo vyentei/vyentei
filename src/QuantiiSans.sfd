@@ -5011,7 +5011,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
-Refer: 1114118 -1 N 1 0 0 1 1182 373 2
+Refer: 1114118 -1 N 1 0 0 1 1154 373 2
 EndChar
 StartChar: Edieresis
 Encoding: 203 203 203
@@ -6086,7 +6086,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
-Refer: 1114119 -1 N 1 0 0 1 1190 367 2
+Refer: 1114119 -1 N 1 0 0 1 1162 367 2
 EndChar
 StartChar: ecaron
 Encoding: 283 283 283
@@ -55839,7 +55839,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
-Refer: 1114177 -1 N 1 0 0 1 0 0 2
+Refer: 1114177 -1 N 1 0 0 1 -50 0 2
 EndChar
 StartChar: uni1EBF
 Encoding: 7871 7871 7871
@@ -55857,7 +55857,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
-Refer: 1114178 -1 N 1 0 0 1 -18 0 2
+Refer: 1114178 -1 N 1 0 0 1 -50 0 2
 EndChar
 StartChar: uni1EC1
 Encoding: 7873 7873 7873
@@ -55875,7 +55875,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
-Refer: 1114184 -1 N 1 0 0 1 -18 0 2
+Refer: 1114184 -1 N 1 0 0 1 -50 0 2
 EndChar
 StartChar: uni1EC3
 Encoding: 7875 7875 7875
@@ -55893,7 +55893,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
-Refer: 1114179 -1 N 1 0 0 1 -22 0 2
+Refer: 1114179 -1 N 1 0 0 1 -50 0 2
 EndChar
 StartChar: uni1EC5
 Encoding: 7877 7877 7877
