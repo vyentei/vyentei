@@ -8761,7 +8761,7 @@ Refer: 795 795 N 1 0 0 1 1508 308 2
 EndChar
 StartChar: uhorn
 Encoding: 432 432 432
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -55119,7 +55119,7 @@ Refer: 85 85 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E79
 Encoding: 7801 7801 7801
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -56192,7 +56192,7 @@ Refer: 803 803 N 1 0 0 1 1269 0 2
 EndChar
 StartChar: uni1EE5
 Encoding: 7909 7909 7909
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -56282,7 +56282,7 @@ Refer: 431 431 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EEF
 Encoding: 7919 7919 7919
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -56300,7 +56300,7 @@ Refer: 803 803 N 1 0 0 1 1269 0 2
 EndChar
 StartChar: uni1EF1
 Encoding: 7921 7921 7921
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
@@ -132153,7 +132153,7 @@ Refer: 116 116 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5CE
 Encoding: 120270 120270 120270
-Width: 1298
+Width: 1255
 Flags: W
 LayerCount: 2
 Fore
