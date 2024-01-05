@@ -3686,7 +3686,7 @@ Encoding: 117 117 117
 Width: 1255
 Flags: W
 AnchorPoint: "ogonek" 1008 0 basechar 0
-AnchorPoint: "half" -43 1520 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "cedilla" 594 0 basechar 0
 AnchorPoint: "below" 594 0 basechar 0
 AnchorPoint: "above" 594 1147 basechar 0 20
@@ -7222,7 +7222,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114118 -1 N 1 0 0 1 1525 380 2
+Refer: 1114118 -1 N 1 0 0 1 1485 380 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wcircumflex
@@ -55188,7 +55188,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114117 -1 N 1 0 0 1 1525 380 2
+Refer: 1114117 -1 N 1 0 0 1 1485 380 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wgrave
@@ -55207,8 +55207,8 @@ Width: 1945
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Fore
-Refer: 1114115 -1 N 1 0 0 1 1525 380 2
+1525Fore
+Refer: 1114115 -1 N 1 0 0 1 1485 380 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wacute
@@ -55228,7 +55228,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 168 168 N 1 0 0 1 501 318 2
+Refer: 168 168 N 1 0 0 1 461 318 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wdieresis
@@ -55247,7 +55247,7 @@ Width: 1945
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114122 -1 N 1 0 0 1 1525 371 2
+Refer: 1114122 -1 N 1 0 0 1 1485 371 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E87
@@ -55266,7 +55266,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 87 87 N 1 0 0 1 0 0 3
-Refer: 803 803 N 1 0 0 1 1531 0 2
+Refer: 803 803 N 1 0 0 1 1491 0 2
 EndChar
 StartChar: uni1E89
 Encoding: 7817 7817 7817
