@@ -6172,7 +6172,7 @@ Flags: W
 CounterMasks: 1 0e
 LayerCount: 2
 Fore
-Refer: 1114118 -1 N 1 0 0 1 1282 373 2
+Refer: 1114118 -1 N 1 0 0 1 1262 373 2
 Refer: 72 72 N 1 0 0 1 0 0 3
 EndChar
 StartChar: hcircumflex
@@ -10337,7 +10337,7 @@ Width: 1520
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114119 -1 N 1 0 0 1 1284 373 2
+Refer: 1114119 -1 N 1 0 0 1 1264 373 2
 Refer: 72 72 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni021F
@@ -54330,7 +54330,7 @@ Width: 1520
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114122 -1 N 1 0 0 1 1300 371 2
+Refer: 1114122 -1 N 1 0 0 1 1280 371 2
 Refer: 72 72 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E23
@@ -54348,7 +54348,7 @@ Width: 1520
 Flags: W
 LayerCount: 2
 Fore
-Refer: 803 803 N 1 0 0 1 1282 0 2
+Refer: 803 803 N 1 0 0 1 1262 0 2
 Refer: 72 72 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E25
@@ -54367,7 +54367,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 72 72 N 1 0 0 1 0 0 3
-Refer: 168 168 N 1 0 0 1 264 320 2
+Refer: 168 168 N 1 0 0 1 244 320 2
 EndChar
 StartChar: uni1E27
 Encoding: 7719 7719 7719
@@ -54403,7 +54403,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 72 72 N 1 0 0 1 0 0 3
-Refer: 814 814 N 1 0 0 1 1290 0 2
+Refer: 814 814 N 1 0 0 1 1270 0 2
 EndChar
 StartChar: uni1E2B
 Encoding: 7723 7723 7723
