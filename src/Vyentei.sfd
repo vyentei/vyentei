@@ -3397,8 +3397,8 @@ AnchorPoint: "above" 278 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-193 1582 m 1,0,-1
- 377 1550 l 1,1,-1
+193 1542 m 1,0,-1
+ 377 1590 l 1,1,-1
  377 0 l 1,2,-1
  193 0 l 1,3,-1
  193 1568 l 1025,4,-1
