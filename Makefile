@@ -83,38 +83,38 @@ $(BUILDDIR)/status.txt: $(FULLSFD)
 	install -d $(dir $@)
 	$(STATUS) $(VERSION) $(OLDSTATUS) $(FULLSFD) > $@
 
-$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, QuantiiSans QuantiiSansMono)
+$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, Vyentei VyenteiMono)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)/QuantiiSans.sfd "Sans" \
-	            $(TMPDIR)/QuantiiSansMono.sfd "Sans Mono" > $@
+	            $(TMPDIR)/Vyentei.sfd "Sans" \
+	            $(TMPDIR)/VyenteiMono.sfd "Sans Mono" > $@
 
-$(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/QuantiiSans.sfd
+$(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/Vyentei.sfd
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)/QuantiiSans.sfd "Sans" > $@
+	            $(TMPDIR)/Vyentei.sfd "Sans" > $@
 
-$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, QuantiiSans QuantiiSansMono)
+$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, Vyentei VyenteiMono)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)/QuantiiSans.sfd "Sans" \
-	             $(TMPDIR)/QuantiiSansMono.sfd "Sans Mono" > $@
+	             $(TMPDIR)/Vyentei.sfd "Sans" \
+	             $(TMPDIR)/VyenteiMono.sfd "Sans Mono" > $@
 endif
 
-$(BUILDDIR)/langcover-sans.txt: $(TMPDIR)/QuantiiSans.sfd
+$(BUILDDIR)/langcover-sans.txt: $(TMPDIR)/Vyentei.sfd
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)/QuantiiSans.sfd "Sans" > $@
+	             $(TMPDIR)/Vyentei.sfd "Sans" > $@
 endif
 
 $(BUILDDIR)/Makefile: Makefile
@@ -153,7 +153,7 @@ $(TMPDIR)/$(SANSARCHIVE): sans
 	@echo "[8] => $@"
 	install -d -m 0755 $@/$(TTFDIR)
 	install -d -m 0755 $@/$(DOCDIR)
-	install -p -m 0644 $(BUILDDIR)/QuantiiSans.ttf $@/$(TTFDIR)
+	install -p -m 0644 $(BUILDDIR)/Vyentei.ttf $@/$(TTFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCSANS)) \
 	                   $(STATICDOC) $@/$(DOCDIR)
 
@@ -194,13 +194,13 @@ munge: $(NORMSFD)
 
 full : $(FULLTTF) $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 
-sans : $(addprefix $(BUILDDIR)/, QuantiiSans.ttf $(GENDOCSANS))
+sans : $(addprefix $(BUILDDIR)/, Vyentei.ttf $(GENDOCSANS))
 
 ttf : full-ttf sans-ttf
 
 full-ttf : $(FULLTTF)
 
-sans-ttf: $(BUILDDIR)/QuantiiSans.ttf
+sans-ttf: $(BUILDDIR)/Vyentei.ttf
 
 status : $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 

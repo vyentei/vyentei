@@ -2,7 +2,7 @@
 
 # $Id$
 
-# QuantiiSans fonts statistics generator
+# Vyentei fonts statistics generator
 # (c)2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./stats.sh
 

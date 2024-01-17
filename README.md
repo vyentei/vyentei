@@ -1,19 +1,19 @@
-# QuantiiSans Fonts
+# Vyentei Fonts
 
 **note**: Everything here is a work-in-progress, so the README may describe the
 future.
 
-The QuantiiSans fonts are a font family based upon [DejaVu fonts] v2.37.
+The Vyentei fonts are a font family based upon [DejaVu fonts] v2.37.
 
-QuanttiSans Fonts is comprised of two variable fonts; QuantiiSans and
-QuantiiSans Mono.  Both fonts contain QuantiiSans Emoji - a fullwidth monospace
-font (which has variable axes for text-presentation).
+Vyentei Fonts is comprised of two variable fonts; Vyentei and Vyentei Mono.
+Both fonts contain Vyentei Emoji - a fullwidth monospace font (which has
+variable axes for text-presentation).
 
 ## Variable Font Axes
 
 Variable font axes are used to customize the font's look.  `slnt` and `wght` are
-available on QuantiiSans and QuantiiSans Mono, while `wdth` is only available on
-QuantiiSans.  The axes customizations are designed to be noticeable, but not
+available on Vyentei and Vyentei Mono, while `wdth` is only available on
+Vyentei.  The axes customizations are designed to be noticeable, but not
 extreme.
 
  - `slnt`: Slant / Obliqueness ("normal" 0, "oblique" 10 degrees, "extra

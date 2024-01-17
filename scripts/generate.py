@@ -23,9 +23,9 @@ exp_gen_flags = def_gen_flags + ("omit-instructions",)
 if fontforge.version() < required_version:
   print ("Your version of FontForge is too old - %s or newer is required" % (required_version));
 # FoundryName is not used in TTF generation
-fontforge.setPrefs("FoundryName", "QuantiiSans");
+fontforge.setPrefs("FoundryName", "Vyentei");
 # first 4 characters of TTFFoundry are used for achVendId
-fontforge.setPrefs("TTFFoundry", "QuantiiSans")
+fontforge.setPrefs("TTFFoundry", "Vyentei")
 i = 1
 while i < len(sys.argv):
   font=fontforge.open(sys.argv[i]);

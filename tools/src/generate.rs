@@ -129,22 +129,22 @@ pub fn main() -> Result {
     }
 
     marks.pop();
-    println!("Generating QuantiiSans-Oblique…");
+    println!("Generating Vyentei-Oblique…");
     oblique(
         "./tools/python/generate-oblique.py",
-        "QuantiiSans-Oblique",
+        "Vyentei-Oblique",
         marks.as_str(),
         89,
     )?;
-    println!("Generated QuantiiSans-Oblique!");
-    println!("Generating QuantiiSansMono-Oblique…");
+    println!("Generated Vyentei-Oblique!");
+    println!("Generating VyenteiMono-Oblique…");
     oblique(
         "./tools/python/generate-mono-oblique.py",
-        "QuantiiSansMono-Oblique",
+        "VyenteiMono-Oblique",
         "",
         89,
     )?;
-    println!("Generated QuantiiSansMono-Oblique!");
+    println!("Generated VyenteiMono-Oblique!");
     println!("Generating OTF files…");
 
     Command::new("python3")

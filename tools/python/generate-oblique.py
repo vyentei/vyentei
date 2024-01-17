@@ -10,7 +10,7 @@ TAU = math.tau
 def main():
     marks = sys.argv[1].split(' ')
 
-    font = fontforge.open("./src/QuantiiSans.sfd")
+    font = fontforge.open("./src/Vyentei.sfd")
     font.selection.all()
 
     for glyph in font.glyphs():
@@ -21,7 +21,7 @@ def main():
 
         glyph.width = width
 
-    font.save("./generated/QuantiiSans-Oblique.sfd")
+    font.save("./generated/Vyentei-Oblique.sfd")
 
     return
 

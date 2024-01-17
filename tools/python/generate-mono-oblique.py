@@ -7,7 +7,7 @@ import psMat as psmat
 TAU = math.tau
 
 def main():
-    font = fontforge.open("./src/QuantiiSansMono.sfd")
+    font = fontforge.open("./src/VyenteiMono.sfd")
     font.selection.all()
 
     for glyph in font.glyphs():
@@ -18,7 +18,7 @@ def main():
 
         glyph.width = width
 
-    font.save("./generated/QuantiiSansMono-Oblique.sfd")
+    font.save("./generated/VyenteiMono-Oblique.sfd")
 
     return
 
