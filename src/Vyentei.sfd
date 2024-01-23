@@ -2272,7 +2272,7 @@ EndSplineSet
 EndChar
 StartChar: C
 Encoding: 67 67 67
-Width: 1375
+Width: 1390
 Flags: W
 AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "cedilla" 844 0 basechar 0
@@ -4978,7 +4978,7 @@ EndSplineSet
 EndChar
 StartChar: Ccedilla
 Encoding: 199 199 199
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -5869,7 +5869,7 @@ Refer: 731 731 N 1 0 0 1 447 0 2
 EndChar
 StartChar: Cacute
 Encoding: 262 262 262
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -5887,7 +5887,7 @@ Refer: 180 180 N 1 0 0 1 137 0 2
 EndChar
 StartChar: Ccircumflex
 Encoding: 264 264 264
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -5905,7 +5905,7 @@ Refer: 710 710 N 1 0 0 1 164 0 2
 EndChar
 StartChar: Cdotaccent
 Encoding: 266 266 266
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -5922,7 +5922,7 @@ Refer: 99 99 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Ccaron
 Encoding: 268 268 268
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -20417,7 +20417,7 @@ Refer: 254 254 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni03F9
 Encoding: 1017 1017 1017
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -20519,7 +20519,7 @@ Refer: 390 390 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni03FE
 Encoding: 1022 1022 1022
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -21119,7 +21119,7 @@ Refer: 80 80 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni0421
 Encoding: 1057 1057 1057
-Width: 1375
+Width: 1390
 Flags: W
 AnchorPoint: "above" 844 1520 basechar 0
 LayerCount: 2
@@ -24770,7 +24770,7 @@ EndSplineSet
 EndChar
 StartChar: uni04AA
 Encoding: 1194 1194 1194
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -54069,7 +54069,7 @@ Refer: 717 717 N 1 0 0 1 143 0 2
 EndChar
 StartChar: uni1E08
 Encoding: 7688 7688 7688
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -65092,7 +65092,7 @@ Refer: 76 76 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni216D
 Encoding: 8557 8557 8557
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -115425,7 +115425,7 @@ Refer: 1114187 -1 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniA4DA
 Encoding: 42202 42202 42202
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
@@ -131810,7 +131810,7 @@ Refer: 66 66 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5A2
 Encoding: 120226 120226 120226
-Width: 1375
+Width: 1390
 Flags: W
 LayerCount: 2
 Fore
