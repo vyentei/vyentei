@@ -2473,27 +2473,27 @@ Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" I.alt
 EndChar
 StartChar: J
 Encoding: 74 74 74
-Width: 1213
+Width: 1181
 Flags: W
 AnchorPoint: "half" 42 1520 basechar 0
-AnchorPoint: "below" 647 -20 basechar 0
-AnchorPoint: "above" 647 1520 basechar 0
+AnchorPoint: "below" 631 -20 basechar 0
+AnchorPoint: "above" 631 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 141 1493 m 1,0,-1
- 1153 1493 l 1,1,-1
- 1153 1323 l 1,2,-1
- 748 1323 l 1,3,-1
- 748 577 l 2,4,5
- 748 307 748 307 614 153.5 c 128,-1,6
- 480 0 480 0 253 0 c 2,7,-1
+ 1121 1493 l 1,1,-1
+ 1121 1323 l 1,2,-1
+ 732 1323 l 1,3,-1
+ 732 573 l 2,4,5
+ 732 303 732 303 600 151.5 c 128,-1,6
+ 468 0 468 0 241 0 c 2,7,-1
  92 0 l 1,8,-1
  92 170 l 1,9,-1
- 239 170 l 2,10,11
- 373 170 373 170 459.5 276.5 c 128,-1,12
- 546 383 546 383 546 577 c 2,13,-1
- 546 1323 l 1,14,-1
+ 227 170 l 2,10,11
+ 361 170 361 170 445.5 274.5 c 128,-1,12
+ 530 379 530 379 530 573 c 2,13,-1
+ 530 1323 l 1,14,-1
  141 1323 l 1,15,-1
  141 1493 l 1,0,-1
 EndSplineSet
@@ -6390,14 +6390,14 @@ SplineSet
  1428 1493 l 1,11,-1
  1428 1323 l 1,12,-1
  1142 1323 l 1,13,-1
- 1142 577 l 2,14,15
- 1142 307 1142 307 1008 153.5 c 128,-1,16
- 874 0 874 0 647 0 c 2,17,-1
- 486 0 l 1,18,-1
- 486 170 l 1,19,-1
- 633 170 l 2,20,21
- 767 170 767 170 853.5 276.5 c 128,-1,22
- 940 383 940 383 940 577 c 2,23,-1
+ 1142 573 l 2,14,15
+ 1142 303 1142 303 1010 151.5 c 128,-1,16
+ 878 0 878 0 651 0 c 2,17,-1
+ 502 0 l 1,18,-1
+ 502 170 l 1,19,-1
+ 637 170 l 2,20,21
+ 771 170 771 170 855.5 274.5 c 128,-1,22
+ 940 379 940 379 940 573 c 2,23,-1
  940 1323 l 1,0,-1
 EndSplineSet
 EndChar
@@ -6443,7 +6443,7 @@ EndSplineSet
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 308
-Width: 1213
+Width: 1181
 Flags: W
 LayerCount: 2
 Fore
@@ -17931,7 +17931,7 @@ Refer: 59 59 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni037F
 Encoding: 895 895 895
-Width: 1213
+Width: 1181
 Flags: W
 AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 302 1520 basechar 0
@@ -20653,7 +20653,7 @@ Refer: 207 207 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0408
 Encoding: 1032 1032 1032
-Width: 1213
+Width: 1181
 Flags: W
 LayerCount: 2
 Fore
@@ -131866,7 +131866,7 @@ Refer: 1114207 -1 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5A9
 Encoding: 120233 120233 120233
-Width: 1213
+Width: 1181
 Flags: W
 LayerCount: 2
 Fore
