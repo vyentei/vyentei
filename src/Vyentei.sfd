@@ -2199,23 +2199,23 @@ AnchorPoint: "ogonek" 1284 0 basechar 0
 AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "cedilla" 1323 0 basechar 0
 AnchorPoint: "below" 744 0 basechar 0
-AnchorPoint: "above" 744 1520 basechar 0
+AnchorPoint: "above" 743 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 744 1294 m 1,0,-1
- 470 551 l 1,1,-1
+ 469 551 l 1,1,-1
  1019 551 l 1,2,-1
  744 1294 l 1,0,-1
-630 1493 m 1,3,-1
+629 1493 m 1,3,-1
  859 1493 l 1,4,-1
  1428 0 l 1,5,-1
  1218 0 l 1,6,-1
- 1082 383 l 1,7,-1
- 409 383 l 1,8,-1
- 273 0 l 1,9,-1
+ 1078 383 l 1,7,-1
+ 410 383 l 1,8,-1
+ 270 0 l 1,9,-1
  60 0 l 1,10,-1
- 630 1493 l 1,3,-1
+ 629 1493 l 1,3,-1
 EndSplineSet
 EndChar
 StartChar: B
@@ -2536,24 +2536,24 @@ EndSplineSet
 EndChar
 StartChar: M
 Encoding: 77 77 77
-Width: 1727
+Width: 1728
 Flags: W
 AnchorPoint: "cedilla" 299 0 basechar 0
 AnchorPoint: "half" 0 1520 basechar 0
-AnchorPoint: "below" 863 0 basechar 0
-AnchorPoint: "above" 863 1520 basechar 0
+AnchorPoint: "below" 864 0 basechar 0
+AnchorPoint: "above" 864 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 201 1493 m 1,0,-1
- 502 1493 l 1,1,-1
- 863 477 l 1,2,-1
- 1226 1493 l 1,3,-1
+ 501 1493 l 1,1,-1
+ 864 477 l 1,2,-1
+ 1227 1493 l 1,3,-1
  1527 1493 l 1,4,-1
  1527 0 l 1,5,-1
- 1330 0 l 1,6,-1
- 1330 1311 l 1,7,-1
- 965 287 l 1,8,-1
+ 1331 0 l 1,6,-1
+ 1331 1311 l 1,7,-1
+ 966 287 l 1,8,-1
  762 287 l 1,9,-1
  397 1311 l 1,10,-1
  397 0 l 1,11,-1
@@ -2793,47 +2793,47 @@ EndSplineSet
 EndChar
 StartChar: V
 Encoding: 86 86 86
-Width: 1488
+Width: 1472
 Flags: W
 AnchorPoint: "half" 0 1520 basechar 0
-AnchorPoint: "below" 744 0 basechar 0
-AnchorPoint: "above" 744 1520 basechar 0
+AnchorPoint: "below" 732 0 basechar 0
+AnchorPoint: "above" 732 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-630 0 m 1,0,-1
+618 0 m 1,0,-1
  60 1493 l 1,1,-1
- 271 1493 l 1,2,-1
- 744 236 l 1,3,-1
- 1218 1493 l 1,4,-1
- 1428 1493 l 1,5,-1
- 859 0 l 1,6,-1
- 630 0 l 1,0,-1
+ 270 1493 l 1,2,-1
+ 732 236 l 1,3,-1
+ 1194 1493 l 1,4,-1
+ 1404 1493 l 1,5,-1
+ 846 0 l 1,6,-1
+ 618 0 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: W
 Encoding: 87 87 87
-Width: 1946
+Width: 1916
 Flags: W
 AnchorPoint: "half" 0 1520 basechar 0
-AnchorPoint: "below" 973 0 basechar 0
-AnchorPoint: "above" 973 1520 basechar 0
+AnchorPoint: "below" 957 0 basechar 0
+AnchorPoint: "above" 957 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 60 1493 m 1,0,-1
- 264 1493 l 1,1,-1
- 566 231 l 1,2,-1
- 844 1493 l 1,3,-1
- 1101 1493 l 1,4,-1
- 1380 231 l 1,5,-1
- 1681 1493 l 1,6,-1
- 1886 1493 l 1,7,-1
- 1527 0 l 1,8,-1
- 1273 0 l 1,9,-1
- 974 1296 l 1,10,-1
- 672 0 l 1,11,-1
- 418 0 l 1,12,-1
+ 265 1493 l 1,1,-1
+ 558 231 l 1,2,-1
+ 828 1493 l 1,3,-1
+ 1088 1493 l 1,4,-1
+ 1358 231 l 1,5,-1
+ 1651 1493 l 1,6,-1
+ 1856 1493 l 1,7,-1
+ 1506 0 l 1,8,-1
+ 1252 0 l 1,9,-1
+ 958 1296 l 1,10,-1
+ 664 0 l 1,11,-1
+ 410 0 l 1,12,-1
  60 1493 l 1,0,-1
 EndSplineSet
 EndChar
@@ -2864,24 +2864,24 @@ EndSplineSet
 EndChar
 StartChar: Y
 Encoding: 89 89 89
-Width: 1339
+Width: 1336
 Flags: W
-AnchorPoint: "ogonek" 712 0 basechar 0
+AnchorPoint: "ogonek" 709 0 basechar 0
 AnchorPoint: "half" 0 1520 basechar 0
-AnchorPoint: "below" 670 0 basechar 0
-AnchorPoint: "above" 670 1520 basechar 0
+AnchorPoint: "below" 667 0 basechar 0
+AnchorPoint: "above" 667 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 60 1493 m 1,0,-1
  277 1493 l 1,1,-1
- 671 879 l 1,2,-1
- 1062 1493 l 1,3,-1
- 1279 1493 l 1,4,-1
- 771 711 l 1,5,-1
- 771 0 l 1,6,-1
- 568 0 l 1,7,-1
- 568 711 l 1,8,-1
+ 668 879 l 1,2,-1
+ 1059 1493 l 1,3,-1
+ 1276 1493 l 1,4,-1
+ 768 711 l 1,5,-1
+ 768 0 l 1,6,-1
+ 565 0 l 1,7,-1
+ 565 711 l 1,8,-1
  60 1493 l 1,0,-1
 EndSplineSet
 EndChar
@@ -5249,7 +5249,7 @@ Refer: 1114114 -1 N 1 0 0 1 1262 373 2
 EndChar
 StartChar: Yacute
 Encoding: 221 221 221
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -7212,7 +7212,7 @@ Refer: 731 731 N 1 0 0 1 508 0 2
 EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 372
-Width: 1946
+Width: 1916
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -7232,7 +7232,7 @@ Refer: 119 119 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Ycircumflex
 Encoding: 374 374 374
-Width: 1339
+Width: 1336
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -7252,7 +7252,7 @@ Refer: 121 121 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Ydieresis
 Encoding: 376 376 376
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -10672,7 +10672,7 @@ Refer: 175 175 N 1 0 0 1 115 315 2
 EndChar
 StartChar: uni0232
 Encoding: 562 562 562
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -18182,7 +18182,7 @@ EndSplineSet
 EndChar
 StartChar: Mu
 Encoding: 924 924 924
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -18276,7 +18276,7 @@ Refer: 84 84 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Upsilon
 Encoding: 933 933 933
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -18404,7 +18404,7 @@ Refer: 1114114 -1 N 1 0 0 1 946 373 2
 EndChar
 StartChar: Upsilondieresis
 Encoding: 939 939 939
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -21060,7 +21060,7 @@ EndSplineSet
 EndChar
 StartChar: uni041C
 Encoding: 1052 1052 1052
-Width: 1727
+Width: 1728
 Flags: W
 AnchorPoint: "above" 883 1520 basechar 0
 LayerCount: 2
@@ -24829,7 +24829,7 @@ EndSplineSet
 EndChar
 StartChar: uni04AE
 Encoding: 1198 1198 1198
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -27086,7 +27086,7 @@ Refer: 113 113 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni051C
 Encoding: 1308 1308 1308
-Width: 1946
+Width: 1916
 Flags: W
 LayerCount: 2
 Fore
@@ -42188,7 +42188,7 @@ Refer: 5130 5130 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni142F
 Encoding: 5167 5167 5167
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -42307,7 +42307,7 @@ Refer: 5159 5159 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni143B
 Encoding: 5179 5179 5179
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -54591,7 +54591,7 @@ Refer: 108 108 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E3E
 Encoding: 7742 7742 7742
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -54609,7 +54609,7 @@ Refer: 180 180 N 1 0 0 1 404 0 2
 EndChar
 StartChar: uni1E40
 Encoding: 7744 7744 7744
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -54627,7 +54627,7 @@ Refer: 109 109 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E42
 Encoding: 7746 7746 7746
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -55153,7 +55153,7 @@ Refer: 117 117 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E7C
 Encoding: 7804 7804 7804
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -55171,7 +55171,7 @@ Refer: 732 732 N 1 0 0 1 109 0 2
 EndChar
 StartChar: uni1E7E
 Encoding: 7806 7806 7806
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -55189,7 +55189,7 @@ Refer: 803 803 N 1 0 0 1 1118 0 2
 EndChar
 StartChar: Wgrave
 Encoding: 7808 7808 7808
-Width: 1946
+Width: 1916
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -55209,7 +55209,7 @@ Refer: 119 119 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Wacute
 Encoding: 7810 7810 7810
-Width: 1946
+Width: 1916
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -55229,7 +55229,7 @@ Refer: 119 119 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Wdieresis
 Encoding: 7812 7812 7812
-Width: 1946
+Width: 1916
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -55249,7 +55249,7 @@ Refer: 119 119 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E86
 Encoding: 7814 7814 7814
-Width: 1946
+Width: 1916
 Flags: W
 LayerCount: 2
 Fore
@@ -55267,7 +55267,7 @@ Refer: 119 119 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E88
 Encoding: 7816 7816 7816
-Width: 1946
+Width: 1916
 Flags: W
 LayerCount: 2
 Fore
@@ -55321,7 +55321,7 @@ Refer: 168 168 N 1 0 0 1 102 0 2
 EndChar
 StartChar: uni1E8E
 Encoding: 7822 7822 7822
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -56316,7 +56316,7 @@ Refer: 803 803 N 1 0 0 1 1104 0 2
 EndChar
 StartChar: Ygrave
 Encoding: 7922 7922 7922
-Width: 1339
+Width: 1336
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -56336,7 +56336,7 @@ Refer: 96 96 N 1 0 0 1 33 5 2
 EndChar
 StartChar: uni1EF4
 Encoding: 7924 7924 7924
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -56354,7 +56354,7 @@ Refer: 121 121 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1EF6
 Encoding: 7926 7926 7926
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -56372,7 +56372,7 @@ Refer: 777 777 N 1 0 0 1 1120 7 2
 EndChar
 StartChar: uni1EF8
 Encoding: 7928 7928 7928
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -58353,7 +58353,7 @@ Refer: 8129 8129 N 1 0 0 1 26 0 2
 EndChar
 StartChar: uni1FE8
 Encoding: 8168 8168 8168
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -58362,7 +58362,7 @@ Refer: 1114121 -1 N 1 0 0 1 1142 373 2
 EndChar
 StartChar: uni1FE9
 Encoding: 8169 8169 8169
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -65004,7 +65004,7 @@ Refer: 8548 8548 N 1 0 0 1 620 0 2
 EndChar
 StartChar: uni2164
 Encoding: 8548 8548 8548
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -65099,7 +65099,7 @@ Refer: 68 68 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni216F
 Encoding: 8559 8559 8559
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -113281,7 +113281,7 @@ Refer: 923 923 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni2D38
 Encoding: 11576 11576 11576
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -115456,7 +115456,7 @@ Refer: 8498 8498 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniA4DF
 Encoding: 42207 42207 42207
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -115538,7 +115538,7 @@ Refer: 581 581 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniA4E6
 Encoding: 42214 42214 42214
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -115584,7 +115584,7 @@ EndSplineSet
 EndChar
 StartChar: uniA4EA
 Encoding: 42218 42218 42218
-Width: 1946
+Width: 1916
 Flags: W
 LayerCount: 2
 Fore
@@ -115600,7 +115600,7 @@ Refer: 88 88 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniA4EC
 Encoding: 42220 42220 42220
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
@@ -131881,7 +131881,7 @@ Refer: 76 76 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5AC
 Encoding: 120236 120236 120236
-Width: 1727
+Width: 1728
 Flags: W
 LayerCount: 2
 Fore
@@ -131953,7 +131953,7 @@ Refer: 85 85 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5B5
 Encoding: 120245 120245 120245
-Width: 1488
+Width: 1472
 Flags: W
 LayerCount: 2
 Fore
@@ -131961,7 +131961,7 @@ Refer: 86 86 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5B6
 Encoding: 120246 120246 120246
-Width: 1946
+Width: 1916
 Flags: W
 LayerCount: 2
 Fore
@@ -131977,7 +131977,7 @@ Refer: 88 88 N 1 0 0 1 0 0 2
 EndChar
 StartChar: u1D5B8
 Encoding: 120248 120248 120248
-Width: 1339
+Width: 1336
 Flags: W
 LayerCount: 2
 Fore
