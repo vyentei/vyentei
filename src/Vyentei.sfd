@@ -2878,14 +2878,14 @@ LayerCount: 2
 Fore
 SplineSet
 60 1493 m 1,0,-1
- 1185 1493 l 1,1,-1
- 1185 1339 l 1,2,-1
- 344 170 l 1,3,-1
+ 1240 1493 l 1,1,-1
+ 1240 1339 l 1,2,-1
+ 312 170 l 1,3,-1
  1240 170 l 1,4,-1
  1240 0 l 1,5,-1
- 92 0 l 1,6,-1
- 92 154 l 1,7,-1
- 933 1323 l 1,8,-1
+ 60 0 l 1,6,-1
+ 60 154 l 1,7,-1
+ 988 1323 l 1,8,-1
  60 1323 l 1,9,-1
  60 1493 l 1,0,-1
 EndSplineSet
@@ -7290,7 +7290,7 @@ Width: 1300
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114115 -1 N 1 0 0 1 1173 374 2
+Refer: 1114115 -1 N 1 0 0 1 1369 374 2
 Refer: 90 90 N 1 0 0 1 0 0 3
 EndChar
 StartChar: zacute
@@ -7308,7 +7308,7 @@ Width: 1300
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114122 -1 N 1 0 0 1 1214 373 2
+Refer: 1114122 -1 N 1 0 0 1 1410 373 2
 Refer: 90 90 N 1 0 0 1 0 0 3
 EndChar
 StartChar: zdotaccent
@@ -7327,7 +7327,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 90 90 N 1 0 0 1 0 0 3
-Refer: 1114119 -1 N 1 0 0 1 1214 373 2
+Refer: 1114119 -1 N 1 0 0 1 1410 373 2
 EndChar
 StartChar: zcaron
 Encoding: 382 382 382
@@ -55375,7 +55375,7 @@ Width: 1300
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114118 -1 N 1 0 0 1 1214 373 2
+Refer: 1114118 -1 N 1 0 0 1 1410 373 2
 Refer: 90 90 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E91
@@ -55394,7 +55394,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 90 90 N 1 0 0 1 0 0 3
-Refer: 803 803 N 1 0 0 1 1241 0 2
+Refer: 803 803 N 1 0 0 1 1437 0 2
 EndChar
 StartChar: uni1E93
 Encoding: 7827 7827 7827
@@ -55412,7 +55412,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 90 90 N 1 0 0 1 0 0 3
-Refer: 717 717 N 1 0 0 1 199 0 2
+Refer: 717 717 N 1 0 0 1 395 0 2
 EndChar
 StartChar: uni1E95
 Encoding: 7829 7829 7829
