@@ -185,7 +185,7 @@ KernClass2: 48 49 "'kern' Horizontal Kerning in Latin lookup 16"
  8 Z Zcaron
  84 a aacute ae aeacute agrave acircumflex atilde adieresis aring amacron abreve aogonek
  25 b p thorn uni01A5 uni01BF
- 102 c ccedilla cdotaccent tcommaaccent ccircumflex uni01C6 uni021B uni0231 cacute ccaron d q dcaron dcroat
+ 73 c ccedilla cdotaccent ccircumflex uni01C6 cacute ccaron d q dcaron dcroat
  3 eth
  15 e eacute ecaron
  28 egrave ecircumflex edieresis
@@ -194,14 +194,14 @@ KernClass2: 48 49 "'kern' Horizontal Kerning in Latin lookup 16"
  15 igrave iacute i
  1 l
  26 n ntilde ncaron g m gbreve
- 8 o oacute
+ 16 o oacute uni0231
  7 uni022F
  35 ograve ocircumflex otilde odieresis
  28 omacron obreve ohungarumlaut
  15 uni01EB uni01ED
  15 r racute rcaron
  44 s scedilla scaron z zacute zdotaccent zcaron
- 8 t tcaron
+ 29 t tcaron uni021B tcommaaccent
  87 u uacute uring utilde umacron ubreve uhungarumlaut uogonek ugrave ucircumflex udieresis
  1 v
  37 w wgrave wcircumflex wacute wdieresis
