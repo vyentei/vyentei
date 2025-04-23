@@ -3364,13 +3364,13 @@ Fore
 SplineSet
 186 1556 m 1,0,-1
  371 1556 l 1,1,-1
- 371 591 l 2,2,-1
- 371 226 l 1,3,4
- 371 101 371 101 444 56 c 1,5,-1
- 325 -48 l 1,6,7
- 271 -6 271 -6 271 -6 c 0,8,9
- 185 63 185 63 186 166 c 1,10,11
- 186 166 186 166 186 1556 c 1,0,-1
+ 371 603 l 2,2,-1
+ 371 238 l 1,3,4
+ 371 113 371 113 444 68 c 1,5,-1
+ 325 -36 l 1,6,7
+ 271 6 271 6 271 6 c 0,8,9
+ 185 75 185 75 186 178 c 1,10,11
+ 186 178 186 178 186 1556 c 1,0,-1
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 29" l.alt
 Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" l.alt
