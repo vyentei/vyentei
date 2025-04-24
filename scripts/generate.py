@@ -17,7 +17,7 @@ required_version = "20080330"
 #   old-kern          => generate old fashioned kern tables.
 #   - this one is important because it generates correct kerning tables for legacy 
 #     applications
-def_gen_flags = ("opentype", "glyph-comments", "glyph-colors", "old-kern")
+def_gen_flags = ("opentype", "old-kern")
 exp_gen_flags = def_gen_flags + ("omit-instructions",)
 
 if fontforge.version() < required_version:

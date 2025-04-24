@@ -145,18 +145,18 @@ pub fn main() -> Result {
         89,
     )?;
     println!("Generated VyenteiMono-Oblique!");
-    println!("Generating OTF files…");
+    println!("Generating TTF and WOFF files…");
 
     Command::new("python3")
-        .arg("./tools/python/generate-otf.py")
+        .arg("./tools/python/generate-formats.py")
         .status()?
         .success()
         .then_some(())
         .ok_or_else(|| {
-            Error::new(ErrorKind::Other, "Failed to generate OTF files!")
+            Error::new(ErrorKind::Other, "Failed to generate TTF and WOFF files!")
         })?;
 
-    println!("Generated OTF files!");
+    println!("Generated TTF and WOFF files!");
 
     Ok(())
 }
